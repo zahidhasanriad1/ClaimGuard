@@ -208,7 +208,7 @@ ClaimGuard/
   frontend-angular/
 
 
-API Endpoints
+# API Endpoints
 Health
 
 GET /health
@@ -233,7 +233,7 @@ GET /claims/{document_id}
 
 Extracts claims from a processed document.
 
-Query parameters:
+# Query parameters:
 
 mode=rule|gemini
 max_claims=...
@@ -273,16 +273,16 @@ POST /exports/{document_id}/verification-csv
 
 Exports detailed verification results in CSV.
 
-Installation
+# Installation
 Backend Setup
 
 Create and activate a virtual environment, then install dependencies.
 
-python -m venv .venv
+``python -m venv .venv
 .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements.txt``
 
-Run the backend:
+# Run the backend:
 
 uvicorn app.main:app --reload
 Frontend Setup
