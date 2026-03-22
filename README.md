@@ -132,5 +132,3 @@ PARSED_DOCS_DIR=data/parsed
 ## 🌟 Why This Project Matters
 
 ClaimGuard demonstrates an industrial-grade approach to AI Engineering. It combines document parsing, OCR, stateful graph orchestration (LangGraph), and a modern web interface to solve real-world data integrity problems. It is designed for high-stakes environments like research auditing and financial reporting.
-
-Would you like me to generate a **`.gitignore`** file to help keep your `data/` and `.venv/` folders out of your repository?
