@@ -1,133 +1,199 @@
 # ClaimGuard
-ClaimGuard is a document intelligence system for verifying numerical claims in PDF files. It analyzes reports, research papers, and other document based files, then checks whether written numerical statements are supported by evidence found in the same document.
 
-The system extracts meaningful claims, finds related evidence from text and tables, assigns a verification verdict, and provides exportable outputs for review.
+ClaimGuard is a document intelligence system for verifying numerical claims in PDF documents. It processes reports, research papers, and other document based files, then checks whether written numerical statements are supported by evidence found inside the same document.
 
-Overview
+The system extracts meaningful claims, retrieves related evidence from text and tables, assigns a verification verdict, and provides exportable outputs for review.
 
-Many reports and research documents contain important numerical statements such as percentages, counts, rankings, growth values, financial figures, and performance metrics. These statements are often repeated in summaries, conclusions, or discussion sections. Manual checking is slow and error prone.
+## Overview
 
-ClaimGuard helps solve this problem by building an end to end verification pipeline. It reads a PDF, extracts page level text, applies OCR when needed, identifies numerical claims, searches for matching evidence, and classifies each claim as supported, contradicted, or insufficient.
+Many reports and research documents contain important numerical statements such as percentages, counts, rankings, growth values, financial figures, and performance metrics. These statements are often repeated in executive summaries, discussion sections, or conclusions. Manual validation is slow and error prone.
 
-Key Features
-PDF upload and document ingestion
-Native PDF text extraction
-OCR fallback for scan like pages
-Page image rendering for later visual analysis
-Resolved page text selection between native text and OCR text
-Numerical claim extraction in rule based mode and Gemini based mode
-Claim cleanup through deduplication and prioritization
-Evidence retrieval from text and table rows
-Claim verification with transparent evidence matching
-Result caching for faster repeated runs
-JSON and CSV export support
-Frontend dashboard for upload, verification, and export
-Working Process
-1. Document Ingestion
+ClaimGuard addresses this problem through an end to end verification pipeline. It reads a PDF, extracts page level text, applies OCR when needed, identifies numerical claims, searches for matching evidence, and classifies each claim as **Supported**, **Contradicted**, or **Insufficient**.
 
-The process begins when a user uploads a PDF file through the API or the frontend. The uploaded file is stored in the project data directory for later processing.
+## Current Implementation Status
 
-2. Native PDF Parsing
+The current version is a working research MVP with:
 
-The system reads the PDF using a native parser. It extracts document metadata, page count, page previews, and the full text of each page. This is the first choice because native text is usually more accurate and faster than OCR.
+1. FastAPI based backend
+2. Angular based frontend
+3. LangGraph based verification workflow
+4. OCR fallback for scan like pages
+5. Rule based and Gemini based claim extraction
+6. Text based and basic table based evidence verification
+7. Result caching and export support
 
-3. Page Rendering
+At this stage, LangGraph is actively used in the verification pipeline. The ingestion and parsing pipeline still runs through the FastAPI service layer.
 
-Every page is converted into an image and stored locally. These page images support OCR fallback and future visual modules such as chart analysis.
+## Key Features
 
-4. OCR Fallback
+1. PDF upload and document ingestion
+2. Native PDF text extraction
+3. OCR fallback for scan like pages
+4. Page image rendering for future visual analysis
+5. Resolved page text selection between native text and OCR text
+6. Numerical claim extraction in rule based mode and Gemini based mode
+7. Claim cleanup through filtering, deduplication, and prioritization
+8. Evidence retrieval from text and table rows
+9. Claim verification with transparent evidence matching
+10. Result caching for faster repeated runs
+11. JSON and CSV export support
+12. Angular dashboard for upload, verification, and export
 
-When a page contains very little machine readable text, ClaimGuard marks it as scan like and runs OCR on the page image. This improves reliability for scanned PDFs and image based documents.
+## How It Works
 
-5. Final Page Text Resolution
+### 1. Document Ingestion
+A user uploads a PDF through the API or the frontend interface. The file is stored locally for processing.
 
-For each page, the system decides which source should be used as the final page text. It chooses between native PDF text and OCR text. The selected output becomes the resolved page text for the next stages.
+### 2. Native PDF Parsing
+The system reads the document using a native parser and extracts:
 
-6. Table Extraction
+1. document metadata
+2. page count
+3. page previews
+4. full page text
 
-ClaimGuard attempts to detect tables directly from the PDF. If tables are found, they are converted into row based records that include page number, table index, row index, headers, values, and row text.
+This is the first choice because machine readable PDF text is usually faster and more accurate than OCR.
 
-7. Claim Extraction
+### 3. Page Rendering
+Each page is converted into an image and stored locally. These images are used later for OCR fallback and future visual modules.
 
-The system extracts meaningful numerical claims from the resolved page text. Two modes are supported.
+### 4. OCR Fallback
+If a page contains very little native text, ClaimGuard marks it as scan like and applies OCR to recover readable text.
 
-Rule based mode uses patterns and filters.
+### 5. Final Page Text Resolution
+For each page, the system decides whether to use native PDF text or OCR text. The selected result becomes the resolved page text for the later stages.
 
-Gemini based mode uses a language model for cleaner and more contextual extraction.
+### 6. Table Extraction
+ClaimGuard attempts to detect structured tables from the PDF. If tables are found, they are converted into row based records containing page number, table index, row index, headers, values, and row text.
 
-The extractor focuses on claims related to percentages, counts, currency, rankings, trends, and comparisons.
+### 7. Claim Extraction
+The system extracts meaningful numerical claims from the resolved page text.
 
-8. Claim Post Processing
+Two modes are supported:
 
-After extraction, claims are cleaned before verification. The system removes weak claims, filters obvious noise, merges duplicates, and prioritizes stronger claims. This improves both speed and result quality.
+1. **Rule mode**
+2. **Gemini mode**
 
-9. Evidence Indexing
+The extractor focuses on claims such as:
 
-ClaimGuard builds searchable evidence structures from page text sentences and extracted table rows. These structures are grouped by page so the verifier can focus on relevant nearby evidence.
+1. percentages
+2. currency values
+3. counts
+4. trends
+5. comparisons
+6. rankings
 
-10. Claim Verification
+Noise such as citation numbers, section numbers, page headers, author affiliations, DOI values, and model version names is filtered as much as possible.
 
-Each claim is checked against candidate evidence using keyword overlap, page relevance, numerical similarity, and unit compatibility. The verifier assigns one of three verdicts.
+### 8. Claim Post Processing
+Extracted claims pass through a cleanup stage. This stage removes weak claims, merges duplicates, and prioritizes more useful claims. This improves both speed and output quality.
 
-Supported
+### 9. Evidence Indexing
+ClaimGuard builds searchable evidence indexes from:
 
-Contradicted
+1. page level text sentences
+2. extracted table rows
 
-Insufficient
+These indexes are organized by page so that verification focuses on nearby evidence rather than scanning the full document every time.
 
-11. Evidence Linking
+### 10. LangGraph Based Verification Workflow
+The verification stage is implemented with LangGraph.
 
-For every verified claim, the system stores the strongest evidence match. Evidence may come from a sentence or a table row. The result includes page number, evidence text, confidence score, and notes.
+The current graph contains these nodes:
 
-12. Caching
+1. `load_document`
+2. `extract_claims`
+3. `verify_claims`
+4. `finalize_response`
 
-To avoid repeated work, ClaimGuard caches extracted claims and verification results. Reprocessing the same document becomes much faster, especially in Gemini mode.
+This graph loads the document, extracts claims, verifies them against available evidence, and prepares the final API response.
 
-13. Export
+### 11. Claim Verification
+Each claim is checked against candidate evidence using:
 
-Results can be exported as summary JSON, full verification JSON, and CSV. This makes the output easy to inspect, share, and reuse in research or reporting workflows.
+1. keyword overlap
+2. page level relevance
+3. numerical similarity
+4. unit compatibility
 
-14. Frontend Review
+The system then assigns one of three verdicts:
 
-The frontend provides a simple review interface where users can upload PDFs, select processed documents, run verification, inspect results, and export files.
+1. **Supported**
+2. **Contradicted**
+3. **Insufficient**
 
-Verification Labels
+### 12. Evidence Linking
+For each verified claim, ClaimGuard stores the strongest evidence match. Evidence may come from a sentence or a table row. The response includes page number, evidence text, confidence score, and notes.
 
-ClaimGuard currently uses three output labels.
+### 13. Caching
+To avoid repeated computation, the system caches:
 
-Supported
+1. extracted claims
+2. verification results
+
+This reduces repeated processing cost and improves response time, especially in Gemini mode.
+
+### 14. Export
+Results can be exported as:
+
+1. summary JSON
+2. full verification JSON
+3. verification CSV
+
+These outputs are useful for research review, reporting, or audit style workflows.
+
+### 15. Frontend Review Interface
+The Angular frontend allows users to:
+
+1. upload a PDF
+2. select a processed document
+3. run verification
+4. inspect supported, contradicted, and insufficient claims
+5. export results
+
+## Verification Labels
+
+ClaimGuard currently uses three labels.
+
+### Supported
 The claim is backed by related evidence in the document.
-Contradicted
+
+### Contradicted
 The claim is strongly related to nearby evidence, but the numerical value conflicts with that evidence.
-Insufficient
+
+### Insufficient
 The system cannot find enough reliable evidence to confirm or reject the claim.
-Tech Stack
-Backend
 
-Python, FastAPI, PyMuPDF, PaddleOCR, Gemini API, Pydantic
+## Tech Stack
 
-Frontend
+### Backend
+1. Python
+2. FastAPI
+3. LangGraph
+4. PyMuPDF
+5. PaddleOCR
+6. Gemini API
+7. Pydantic
 
-Angular
+### Frontend
+1. Angular
 
-Storage
+### Storage
+1. Local file based storage for uploaded files
+2. Parsed document cache
+3. Claim cache
+4. Verification cache
+5. Export files
 
-Local file based storage for uploaded files, parsed documents, cached claims, cached verification results, and exports
-ClaimGuard, A Multimodal Agent for Verifying Numerical Claims Against Charts, Tables, and Reports.
-# Three layers are there:
-1. orchestration layer
-2. document understanding layer
-3. verification layer
+## Project Structure
 
-# Workflow: 
-Upload PDF or report → PyMuPDF parse → PaddleOCR fallback for scanned pages → Gemini দিয়ে claim extraction plus evidence extraction → Python deterministic math verifier → LangGraph review loop → React UI with evidence highlight
-
-# Folder Structure:
-```` ClaimGuard/
+```text
+ClaimGuard/
   app/
     api/
       routes/
     core/
+    graph/
     ocr/
     parsers/
     schemas/
@@ -140,72 +206,3 @@ Upload PDF or report → PyMuPDF parse → PaddleOCR fallback for scanned pages 
     parsed/
     exports/
   frontend-angular/
-  
-API Endpoints
-Document Ingestion
-
-POST /ingest/upload
-
-Uploads a PDF and starts parsing.
-
-Documents
-
-GET /documents
-
-Returns the list of processed documents.
-
-Claim Extraction
-
-GET /claims/{document_id}
-
-Extracts claims from a processed document.
-
-Query parameters:
-mode=rule|gemini
-max_claims=...
-
-Verification
-
-GET /verify/{document_id}
-
-Verifies extracted claims against document evidence.
-
-Query parameters:
-mode=rule|gemini
-max_claims=...
-include_results=true|false
-use_tables=true|false
-
-Tables
-
-GET /tables/{document_id}
-
-Returns extracted table rows from the PDF.
-
-Exports
-
-POST /exports/{document_id}/summary
-
-Exports a summary JSON.
-
-POST /exports/{document_id}/verification-json
-
-Exports detailed verification results in JSON.
-
-POST /exports/{document_id}/verification-csv
-
-Exports detailed verification results in CSV.
-
-Installation
-Backend
-
-# Create and activate a virtual environment, then install dependencies.            # Research, EDA, and prototyping
-
-
-1. python -m venv .venv
-2. .venv\Scripts\activate
-3. python -m pip install --upgrade pip
-4. make requirments.txt
-5. install requirments.txt
-6. pip install -U langgraph
-7. uvicorn app.main:app --reload
