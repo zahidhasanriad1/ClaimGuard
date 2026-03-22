@@ -205,7 +205,7 @@ ClaimGuard/
     pages/
     parsed/
     exports/
-  frontend-angular/
+  frontend-angular/```
 
 
 # API Endpoints
