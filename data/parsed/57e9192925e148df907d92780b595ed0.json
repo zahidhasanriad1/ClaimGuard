@@ -1,0 +1,106 @@
+{
+  "document_id": "57e9192925e148df907d92780b595ed0",
+  "original_filename": "SkySeaLand_Dataset_Academic_Description.pdf",
+  "saved_path": "data\\raw\\57e9192925e148df907d92780b595ed0.pdf",
+  "metadata": {
+    "title": null,
+    "author": "python-docx",
+    "page_count": 5,
+    "file_size_bytes": 60570,
+    "previews": [
+      {
+        "page_number": 1,
+        "text_preview": "SkySeaLand Dataset, Academic Summary for Faculty Review This document provides an academic description of the SkySeaLand dataset for satellite image object detection, including annotation formats in COCO and YOLO, dataset composition, image geometry statistics, and practical implications for model training and evaluation. 1. Dataset Overview SkySeaLand is a curated satellite imagery dataset designed for multi class object detection in wide field scenes. The dataset targets transportation and mar"
+      },
+      {
+        "page_number": 2,
+        "text_preview": "4. Annotation Formats SkySeaLand supports both COCO format and YOLO format. COCO is suitable for standardized benchmarking and COCO mAP reporting. YOLO format is suitable for efficient training pipelines in Ultralytics YOLO and related frameworks. 4.1 COCO Format COCO annotations are provided as JSON files containing images, annotations, and fields of categories. Bounding boxes are stored using the COCO convention [x, y, width, height] in pixel coordinates, where x and y represent the top left c"
+      },
+      {
+        "page_number": 3,
+        "text_preview": "5.1 Image Size Distribution Size Category Threshold by Longest Side Number of Images Percentage Jumbo greater than 3836 px 1104 84.5 percent Large 1024 to 3836 px 90 6.9 percent Medium 512 to 1024 px 58 4.4 percent Small 224 to 512 px 43 3.3 percent Tiny less than 224 px 12 0.9 percent Total 1307 100 percent Interpretation. The high share of jumbo images supports fine grained object detection and long-range context reasoning. The smaller and tiny subsets introduce challenging low-resolution case"
+      }
+    ],
+    "rendered_pages": [
+      {
+        "page_number": 1,
+        "image_path": "data\\pages\\57e9192925e148df907d92780b595ed0_page_1.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1397,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 2,
+        "image_path": "data\\pages\\57e9192925e148df907d92780b595ed0_page_2.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1616,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 3,
+        "image_path": "data\\pages\\57e9192925e148df907d92780b595ed0_page_3.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1081,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 4,
+        "image_path": "data\\pages\\57e9192925e148df907d92780b595ed0_page_4.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1213,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 5,
+        "image_path": "data\\pages\\57e9192925e148df907d92780b595ed0_page_5.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1492,
+        "is_scan_like": false
+      }
+    ],
+    "ocr_pages": [],
+    "resolved_pages": [
+      {
+        "page_number": 1,
+        "source": "native",
+        "text": "SkySeaLand Dataset, Academic Summary for Faculty Review This document provides an academic description of the SkySeaLand dataset for satellite image object detection, including annotation formats in COCO and YOLO, dataset composition, image geometry statistics, and practical implications for model training and evaluation. 1. Dataset Overview SkySeaLand is a curated satellite imagery dataset designed for multi class object detection in wide field scenes. The dataset targets transportation and maritime contexts, with four object categories: airplane, boat, car, and ship. Images exhibit strong variation in spatial resolution and aspect ratio, which supports experiments on scale robustness and geometry aware detection. 2. Classes and Label Space Class Index Class Name Description 0 airplane Aircraft in airport and airfield scenes 1 boat Small to medium watercraft in rivers and coastal zones 2 car Road vehicles in urban and highway contexts 3 ship Large vessels in ports, harbors, and open water 3. Dataset Splits and Directory Structure The dataset is organized into training, validation, and test splits with consistent folder naming conventions. Each split contains an image directory and a corresponding annotation file. Split Images Directory Annotation File Train train train/_annotations.coco.json Validation valid valid/_annotations.coco.json Test test test/_annotations.coco.json",
+        "text_chars": 1397,
+        "used_ocr": false
+      },
+      {
+        "page_number": 2,
+        "source": "native",
+        "text": "4. Annotation Formats SkySeaLand supports both COCO format and YOLO format. COCO is suitable for standardized benchmarking and COCO mAP reporting. YOLO format is suitable for efficient training pipelines in Ultralytics YOLO and related frameworks. 4.1 COCO Format COCO annotations are provided as JSON files containing images, annotations, and fields of categories. Bounding boxes are stored using the COCO convention [x, y, width, height] in pixel coordinates, where x and y represent the top left corner. Category identifiers are mapped to class names through the categories list. 4.2 YOLO Format YOLO annotations store one text file per image. Each line corresponds to one object instance with five values: class_id, x_center, y_center, width, height. Coordinates are normalized to the range 0 to 1 by dividing by image width and image height. YOLO line schema: class_id x_center y_center width height Example line: 2 0.5234 0.4170 0.0612 0.0389 4.3 COCO to YOLO Conversion Notes If labels are converted from COCO to YOLO, conversion should use the original image width and height. For a COCO box [x, y, w, h], YOLO uses x_center = (x + w/2)/W, y_center = (y + h/2)/H, w_norm = w/W, h_norm = h/H. Category ids should be remapped to contiguous class indices 0 to 3 to match the training configuration. 5. Image Geometry Statistics A detailed analysis of image size and aspect ratio reveals that SkySeaLand is dominated by ultra high resolution and wide format scenes. These properties are aligned with satellite imagery acquisition patterns for transportation corridors, coastal regions, airports, and large ports.",
+        "text_chars": 1616,
+        "used_ocr": false
+      },
+      {
+        "page_number": 3,
+        "source": "native",
+        "text": "5.1 Image Size Distribution Size Category Threshold by Longest Side Number of Images Percentage Jumbo greater than 3836 px 1104 84.5 percent Large 1024 to 3836 px 90 6.9 percent Medium 512 to 1024 px 58 4.4 percent Small 224 to 512 px 43 3.3 percent Tiny less than 224 px 12 0.9 percent Total 1307 100 percent Interpretation. The high share of jumbo images supports fine grained object detection and long-range context reasoning. The smaller and tiny subsets introduce challenging low-resolution cases that are useful for robustness studies. 5.2 Aspect Ratio Distribution Aspect Ratio Category Width to Height Ratio Number of Images Percentage Extra Wide 4 to 1 179 13.7 percent Very Wide 3 to 1 955 73.1 percent Wide 2 to 1 88 6.7 percent Square 1 to 1 1 0.1 percent Tall 1 to 2 60 4.6 percent Very Tall 1 to 3 15 1.1 percent Extra Tall 1 to 4 9 0.7 percent Total 1307 100 percent Interpretation. Most images are wide format, which creates a realistic setting for satellite scenes where spatial context extends horizontally, such as runways, coastlines, roads, and shipping lanes.",
+        "text_chars": 1081,
+        "used_ocr": false
+      },
+      {
+        "page_number": 4,
+        "source": "native",
+        "text": "5.3 Combined Size and Aspect Ratio Cross Tabulation Size Category Extra Wide Very Wide Wide Square Tall Very Tall Extra Tall Total Jumbo 151 (13.7%) 824 (74.6%) 62 (5.6%) 0 45 (4.1%) 12 (1.1%) 10 (0.9%) 1104 Large 12 (13.3%) 62 (68.9%) 8 (8.9%) 0 5 (5.6%) 2 (2.2%) 1 (1.1%) 90 Medium 8 (13.8%) 38 (65.5%) 6 (10.3%) 0 4 (6.9%) 1 (1.7%) 1 (1.7%) 58 Small 6 (14.0%) 25 (58.1%) 8 (18.6%) 1 (2.3%) 3 (7.0%) 0 0 43 Tiny 2 (16.7%) 6 (50.0%) 4 (33.3%) 0 0 0 0 12 Total 179 955 88 1 60 15 9 1307 Interpretation. The jumbo subset is primarily very wide, indicating that high resolution captures are often used for expansive scenes. As image size decreases, the share of wide 2 to 1 images increases, suggesting more cropping toward standard formats. 6. Implications for Object Detection Research First, wide aspect ratios can challenge detectors trained on square inputs, since aggressive resizing can distort object shapes and reduce the effective resolution for small objects. Second, jumbo images enable long range context modeling but require careful sampling and augmentation to avoid memory bottlenecks. Third, the presence of small and tiny images supports controlled robustness tests for low resolution performance.",
+        "text_chars": 1213,
+        "used_ocr": false
+      },
+      {
+        "page_number": 5,
+        "source": "native",
+        "text": "7. Practical Training and Evaluation Recommendations For training, letterbox resizing preserves aspect ratio and is preferred for this dataset. Multi scale augmentation and moderate random cropping can improve generalization, but crops should maintain object visibility to avoid label noise. For evaluation, COCO mAP at IoU thresholds from 0.50 to 0.95 is recommended, together with per class average precision to diagnose class specific failures, especially for boat, car, and ship. 8. YOLO Training Configuration Template The following YOLO style configuration is a reference template that can be adapted for Ultralytics YOLO training. Directory names and paths should be adjusted to the local environment. Example data.yaml fields Field Example Value Meaning path /content/SkySeaLand Dataset root directory train train/images Training images path val valid/images Validation images path test test/images Test images path nc 4 Number of classes names [airplane, boat, car, ship] Class names If the dataset uses COCO JSON annotations, then a conversion step is required to produce YOLO label text files. After conversion, each image should have a matching label file with the same base name. 9. Closing Notes SkySeaLand is a technically challenging dataset due to its strong skew toward high resolution and wide format imagery. These characteristics make it suitable for research on multi scale detection, geometry aware preprocessing, and class specific error analysis in satellite imagery.",
+        "text_chars": 1492,
+        "used_ocr": false
+      }
+    ],
+    "extracted_tables": []
+  }
+}
