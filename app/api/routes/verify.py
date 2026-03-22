@@ -1,7 +1,8 @@
-from fastapi import APIRouter, HTTPException, status
+from fastapi import APIRouter, HTTPException, Query, status
 
 from app.schemas.verification import VerificationResponse
 from app.services.claim_extractor import extract_claims_from_resolved_pages
+from app.services.claim_postprocessor import deduplicate_claims, prioritize_claims
 from app.services.claim_verifier import verify_claims_against_resolved_pages
 from app.storage.document_store import load_upload_response
 
@@ -9,7 +10,12 @@ router = APIRouter(prefix="/verify", tags=["verify"])
 
 
 @router.get("/{document_id}", response_model=VerificationResponse)
-def verify_document_claims(document_id: str) -> VerificationResponse:
+def verify_document_claims(
+    document_id: str,
+    include_results: bool = Query(default=False),
+    max_claims: int = Query(default=100, ge=1, le=1000),
+    use_tables: bool = Query(default=False),
+) -> VerificationResponse:
     try:
         payload = load_upload_response(document_id)
     except FileNotFoundError as exc:
@@ -19,10 +25,14 @@ def verify_document_claims(document_id: str) -> VerificationResponse:
         ) from exc
 
     claims = extract_claims_from_resolved_pages(payload.metadata.resolved_pages)
+    claims = deduplicate_claims(claims)
+    claims = prioritize_claims(claims, max_claims=max_claims)
+
     results = verify_claims_against_resolved_pages(
         claims=claims,
         resolved_pages=payload.metadata.resolved_pages,
         extracted_tables=payload.metadata.extracted_tables,
+        use_tables=use_tables,
     )
 
     supported = sum(1 for item in results if item.verdict == "supported")
@@ -35,5 +45,5 @@ def verify_document_claims(document_id: str) -> VerificationResponse:
         supported=supported,
         contradicted=contradicted,
         insufficient=insufficient,
-        results=results,
+        results=results if include_results else [],
     )

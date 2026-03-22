@@ -1,0 +1,646 @@
+{
+  "document_id": "7c9bd0ae8bd6408d98218c16a7949d8a",
+  "original_filename": "Baseline-Report.pdf",
+  "saved_path": "data\\raw\\7c9bd0ae8bd6408d98218c16a7949d8a.pdf",
+  "metadata": {
+    "title": "World Bank Document",
+    "author": "World Bank Group",
+    "page_count": 41,
+    "file_size_bytes": 2270715,
+    "previews": [
+      {
+        "page_number": 1,
+        "text_preview": "Baseline report from Impact Evaluation of Laos Road Maintenance Groups East Asia and Pacific Gender Innovation Lab WORLD BANK GROUP | WASHINGTON, D.C. Public Disclosure Authorized Public Disclosure Authorized Public Disclosure Authorized Public Disclosure Authorized"
+      },
+      {
+        "page_number": 2,
+        "text_preview": "1 Table of Contents Executive Summary ................................................................................................................................... 3 1. Background ....................................................................................................................................... 5 1.1. Road Maintenance Groups (RMGs) .......................................................................................... 5 1.2. RMG Impact Evaluation ...................."
+      },
+      {
+        "page_number": 3,
+        "text_preview": "2 8.2. Wealth ..................................................................................................................................... 29 9. Perceptions regarding RMG program ............................................................................................. 31 9.1. Perception of fairness in selection........................................................................................... 31 9.2. Payment preferences ......................................................."
+      }
+    ],
+    "rendered_pages": [
+      {
+        "page_number": 1,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_1.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 266,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 2,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_2.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 4245,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 3,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_3.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 821,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 4,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_4.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 3374,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 5,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_5.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2764,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 6,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_6.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 3493,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 7,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_7.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 3480,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 8,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_8.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 3771,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 9,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_9.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 3266,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 10,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_10.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 3539,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 11,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_11.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2336,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 12,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_12.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2178,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 13,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_13.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 3522,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 14,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_14.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2098,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 15,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_15.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2020,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 16,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_16.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2268,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 17,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_17.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2095,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 18,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_18.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 723,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 19,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_19.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1649,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 20,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_20.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1817,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 21,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_21.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1238,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 22,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_22.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1539,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 23,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_23.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2249,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 24,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_24.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2610,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 25,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_25.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2290,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 26,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_26.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2357,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 27,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_27.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2280,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 28,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_28.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2111,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 29,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_29.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2289,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 30,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_30.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2021,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 31,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_31.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1939,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 32,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_32.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2303,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 33,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_33.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1082,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 34,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_34.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1520,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 35,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_35.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 3348,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 36,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_36.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1524,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 37,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_37.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1977,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 38,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_38.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 2536,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 39,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_39.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1702,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 40,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_40.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 1204,
+        "is_scan_like": false
+      },
+      {
+        "page_number": 41,
+        "image_path": "data\\pages\\7c9bd0ae8bd6408d98218c16a7949d8a_page_41.png",
+        "width": 918,
+        "height": 1188,
+        "extracted_text_chars": 156,
+        "is_scan_like": false
+      }
+    ],
+    "ocr_pages": [],
+    "resolved_pages": [
+      {
+        "page_number": 1,
+        "source": "native",
+        "text": "Baseline report from Impact Evaluation of Laos Road Maintenance Groups East Asia and Pacific Gender Innovation Lab WORLD BANK GROUP | WASHINGTON, D.C. Public Disclosure Authorized Public Disclosure Authorized Public Disclosure Authorized Public Disclosure Authorized",
+        "text_chars": 266,
+        "used_ocr": false
+      },
+      {
+        "page_number": 2,
+        "source": "native",
+        "text": "1 Table of Contents Executive Summary ................................................................................................................................... 3 1. Background ....................................................................................................................................... 5 1.1. Road Maintenance Groups (RMGs) .......................................................................................... 5 1.2. RMG Impact Evaluation ............................................................................................................ 5 2. RMG program selection .................................................................................................................... 6 3. Baseline data ..................................................................................................................................... 8 3.1. Data collection .......................................................................................................................... 8 3.2. Survey instruments ................................................................................................................... 9 3.3. Sample ..................................................................................................................................... 11 4. Did randomization work? ................................................................................................................ 12 4.1. Basic demographics ................................................................................................................ 12 4.2. Wealth ..................................................................................................................................... 14 4.3. Food consumption ................................................................................................................... 15 4.4. Employment ............................................................................................................................ 15 5. Sample characteristics .................................................................................................................... 17 5.1. Location ................................................................................................................................... 17 5.2. Demographics ......................................................................................................................... 18 5.3. Comparison to a nationally representative sample ................................................................ 19 6. Economic profile ............................................................................................................................. 20 6.1. Employment (other members of the household) .................................................................... 22 6.2. Employment and time-use (women) ....................................................................................... 22 6.3. Income .................................................................................................................................... 23 6.4. Economic shocks ..................................................................................................................... 24 6.5. Comparison to nationally representative sample ................................................................... 24 6.6. Subjective well-being .............................................................................................................. 25 7. RMG women empowerment indicators ......................................................................................... 26 7.1. Participation in HH decision making ....................................................................................... 26 7.2. Community participation ........................................................................................................ 27 8. Targeting ......................................................................................................................................... 28 8.1. Basic demographics ................................................................................................................ 29",
+        "text_chars": 4245,
+        "used_ocr": false
+      },
+      {
+        "page_number": 3,
+        "source": "native",
+        "text": "2 8.2. Wealth ..................................................................................................................................... 29 9. Perceptions regarding RMG program ............................................................................................. 31 9.1. Perception of fairness in selection........................................................................................... 31 9.2. Payment preferences .............................................................................................................. 32 9.3. Perceptions of road and RMG group usefulness ..................................................................... 33 10. Conclusion and next steps .......................................................................................................... 34",
+        "text_chars": 821,
+        "used_ocr": false
+      },
+      {
+        "page_number": 4,
+        "source": "native",
+        "text": "3 Executive Summary The Laos RMG Impact Evaluation will provide rigorous evidence on the impacts of the Laos Poverty Reduction Fund’s Road Maintenance Groups program on the welfare and empowerment of women selected into the program. The Impact Evaluation uses a Randomized Control Trial (RCT) design, providing causal evidence on the effects of the program by analyzing outcomes before and after for women in the experimental sample, who were randomly assigned to either receive the program (“Treatment”) or not (“Control”). The results of the Impact Evaluation will be available after the endline data are collected after 18 months of program implementation. Baseline (i.e. pre-intervention) data were collected for the impact evaluation between September and October 2018. This data provides a glimpse of what program beneficiaries looked like before they started to receive salary payments under the RMG program. Under this study, baseline data collection was also designed to facilitate an analysis of the effectiveness of the targeting mechanism of the program. Village chiefs played a critical role in beneficiary selection. They informed women about the program and helped update poverty rankings on the spot, thus being the gatekeepers of eligibility. To check whether this process succeeded in identifying the poorest households, we surveyed a random sample of women in the village; comparing women in Control and Treatment groups who were deemed eligible for participation, to this random sample of women allows us to answer the question of whether village chiefs indeed selected the poorest households into the program. A number of interesting findings emerged from analysis of the baseline data,  There is a strong economic rationale for the intervention of offering jobs: The baseline data support the business case for the RMG intervention. This is for two reasons. First, the data show that opportunities for wage work are scarce in project areas. Most households contain several working- age adults but very few of these adults are employed in off-farm employment. Most appear to be employed on the household farm, even though average income for wage work (for the few who work) is much higher than the average earnings from the farm. However, such opportunities are even more scarce for women, indicating a strong potential need for a public works program with an explicit gender focus. Second, a large proportion of the study respondents indicated that their household had suffered from some type of economic shock in the prior two years. In addition, income for most households is highly concentrated, coming mainly from agriculture. Moreover, few households have access to savings or any type of financial services. Altogether, this paints a picture of a population that is highly vulnerable: shocks are common, and there are few insurance mechanisms to protect against these shocks. A public works program may help diversify household income and serve as one such insurance mechanism.  For a public works program that aims to create jobs, the program is solidly targeted: The PRF targets remote villages in rural Laos for infrastructure improvements, and through the RMG program, is offering opportunities for wage work for the poorest women within these villages. On both counts, the baseline data suggests that the RMG program is very well targeted.",
+        "text_chars": 3374,
+        "used_ocr": false
+      },
+      {
+        "page_number": 5,
+        "source": "native",
+        "text": "4 The study sample (both Treatment and Control women) AND a randomly selected sample of women from RMG villages are worse off than a comparable sample of women drawn from a nationally representative survey. The women living in the RMG villages have fewer assets, live in houses with poorer characteristics and consume less food than rural women across Laos on average. Within these villages, the RMG program targets women from poor households. By all indications, the program seems to have been successful in this regard. Women that were interested and eligible for the RMG program (Treatment and Control women) were worse off on a number of characteristics than a sample of randomly selected women from the villages. The Treatment and Control women owned fewer assets, lived in houses with poorer characteristics and had lower incomes than a set of randomly selected women from the RMG villages. Not only do these women come from the poorest households, they are also less likely than other family members to be employed off-farm, reinforcing the message of solid targeting.  Participation of village heads in the selection strengthened instead of weakening the selection process: Village heads participated in the selection process and helped update a household’s poverty status from the 2016 PRF poverty ranking for households or household members that had either experienced an economic shock or had changed economic status for other reasons (for example through marriage). The data shows that the women identified as eligible for the program were poorer than other women in the village. Notably, the 2016 poverty rankings suggest the opposite relationship between these groups, which suggests that having village chiefs update poverty ranks on the day of the selection was important in identifying which households were poor in 2018. The report is structured as follows: we provide a description of the RMG program in Section 1 and selection into the RMG program in Section 2, including selection into Treatment and Control groups. Section 3 provides a description of the data collection process. Section 4 presents evidence on the comparability of Treatment and Control Groups. The remaining sections present results from baseline data analysis. Section 5 describes the study sample. Section 6 presents economic profiles of different groups in the study. Sections 7 describes empowerment indicators for women in the Treatment and Control groups. Section 8 provides evidence on how well the program’s targeting mechanisms worked. Section 9 includes information potentially relevant for program design: perceptions of fairness of the selection process and preferences for payments. Section 10 summarizes key findings from baseline data analysis and concludes.",
+        "text_chars": 2764,
+        "used_ocr": false
+      },
+      {
+        "page_number": 6,
+        "source": "native",
+        "text": "5 1. Background 1.1. Road Maintenance Groups (RMGs) The Laos Poverty Reduction Fund (PRF), housed under the Government of Lao PDR Ministry of Agriculture and Forestry, was established in 2002 to help reduce poverty in rural Laos. PRF uses a community driven development approach that is centered around improvements to infrastructure in different sectors such as education, drinking water, irrigation, health and transport. PRF works in Kum Bans1 identified jointly by the government and PRF as being eligible for PRF funding, and Kum Bans in turn identify villages to receive support. PRF operates in 1,820 villages across 263 Kum Bans. While this approach has generally been successful in improving infrastructure, an evaluation of PRF’s projects carried out in 2015 highlighted that the post-completion sustainability of road projects was lacking as road quality deteriorated quickly due to a lack of maintenance. Therefore, PRF decided to introduce maintenance activities in its third organizational phase (PRF III, 2016-2019) with the aim of preventing improved roads from rapidly deteriorating and reducing beneficiaries’ access to services and markets. To maximize the developmental benefits of this activity, these jobs were offered to poor women living in these villages. These women typically have limited wage-earning opportunities and the intervention thus provided them with a basic income to supplement their livelihoods. By providing women, rather than men, with this income-earning opportunity, the project additionally aimed to further women’s empowerment and increase the likelihood of the additional income being used for household business, nutrition, and education investments. Each month PRF carries out road quality inspections to check the performance of the RMGs and applies deductions to their wage payments in the case of poor performance2. The payments are made based on the number of days worked, either monthly or quarterly according to the preference of the RMG members, using a fixed daily rate set at slightly below the prevailing market rate for labor in the village in order attract the poorest village members and preserve this job opportunity for the neediest. The number of days varies month-to month based on the maintenance needs but is typically a few days each month.3 A small pilot of this intervention was carried out in 2017 and qualitative data collected from some beneficiaries showed4 that the approach led to improved road conditions and access levels, while at the same time providing an important income opportunity for poor women in the villages. 1.2. RMG Impact Evaluation The World Bank’s East Asia and Pacific Gender Innovation Lab is partnering with PRF to carry out a rigorous impact evaluation - Randomized Control Trial (RCT) - of the RMG program to examine the 1 A Kum Ban is a group of villages. 2 The RMGs are paid for 50 person-days of work per km per year, divided into equal monthly payments. These are paid in full each month, unless the performance of the RMG is found to be poor, in which case a deduction is applied. The RMG members are free to decide how many days to work each month, as long as they complete the work. The project team monitors how many days they work each month to check if the assumed inputs and related payments are fair. 3 RMG members typically work more in the rainy season (e.g. 6-7 days per month) and less in the dry season (2-3). 4 However, no impact evaluation of the pilot has been carried out.",
+        "text_chars": 3493,
+        "used_ocr": false
+      },
+      {
+        "page_number": 7,
+        "source": "native",
+        "text": "6 effects of participation in RMG jobs on women’s empowerment. The impact evaluation (IE) focuses on both short- and long-term effects of participation on these women. The evidence will be helpful from a knowledge as well as programmatic perspective. From a programmatic perspective, the IE will help PRF rigorously assess whether this program works in increasing women’s empowerment and in providing a social safety net for remote rural populations. The 2017 pilot suggested, anecdotally, improvements in incomes leading to an increase in consumption and investments in home improvements, education, healthcare and productive assets such as livestock, rice mills and motorcycles. The results of the IE will be able to rigorously demonstrate whether the RMG jobs lead to increased women’s empowerment and household welfare, including household incomes, consumption, and investments. The part-time nature of the maintenance work means that it will complement rather than replace other sources of income. The ability to manage other work concurrently with the RMG role will be investigated in the impact evaluation through inquiries into women’s labor force participation and time use. Additionally, the study will identify villagers’ and participants’ perspectives on the utility of the RMG program and the acceptability of the RMG members selection process. PRF will be able to use the study results in scaling up the program and making adjustments where desired. The study will also contribute to global knowledge in at least three ways. First, it will generate new evidence on what works to advance women’s empowerment. The maintenance contracts are set to run for 18 months (through December 2019), covering 2 full rainy seasons and providing approximately 75 days of employment for each RMG member (average of 4-5 days per month). The RMG members will be paid local market rates that tend to be around LAK 60,000/day (approx. US$7/day), or 200,000-250,000 LAK/month, resulting in a total average income of around $500 per RMG member over the implementation period. The pilot indicated that the RMG income makes up 25%-50% of annual household cash income. Impacts of women’s serving as significant household wage earners on their decision-making power, opinions regarding gender-based violence, and comfort with participating in community leadership activities will help elucidate functional methods for improving gender equity. Second, the IE will also provide important evidence on overall effectiveness of Public Works Programs (PWPs) as a poverty alleviation mechanism. To our knowledge, so far only two RCTs of PWPs have been carried out, both outside of Southeast Asia. These RCTs yield evidence contradictory to an extensive body of non-experimental (although rigorous) earlier studies. This work will be an important contribution to this debate. Finally, analysis of the efficacy of the selection process in recruiting poorer village members will also contribute to global research on optimal targeting strategies for social welfare programs. 2. RMG program selection The IE focuses on roads constructed during PRF Cycle 14. The road improvements under this cycle were completed in spring 2018. Selection of RMG members took place in June and early July 2018, with maintenance activities beginning in villages as soon as the village’s RMG members were selected. There are approximately 55 road segments covering 340 km of rural roads in 7 provinces (23-4 districts). To",
+        "text_chars": 3480,
+        "used_ocr": false
+      },
+      {
+        "page_number": 8,
+        "source": "native",
+        "text": "7 carry out maintenance on these segments, 71 RMGs5 have been formed, providing part-time employment for 344 women. The jobs can be taken up by up to one woman from each household, aged 18-50, though neither upper nor lower age limits are strictly enforced. Preference is given to women from the poorest and/or female- headed households. These women are subsequently provided with basic hand tools and training to carry out routine road maintenance activities such as clearing roads of vegetation, clearing the drainage system and making small repairs to the road surface. As part of the impact evaluation, the selection of women from the eligible pool was randomized. Selection began with the village head of each participating village. The village head invited village members to the public meeting where the RMG jobs were to be advertised and RMG members selected. The village head was asked to invite all households with a woman aged over 18. At the meeting, PRF district staff and a data collection firm contracted under the World Bank, Indochina Research Laos, explained the job details, expected salary, and eligibility requirements to attendees. The project was presented as an effort to target poorer households. Attendees were also informed that selection would take place among eligible women via a lucky draw. Those who entered the lucky draw but did not win spots in the RMG would be entered onto a waitlist that would be drawn from in the event that any of the RMG women dropped out. The lucky draw staff explained that individuals could not trade spots between the RMG and waitlist groups, nor within the waitlist order. Interested women were then invited to register for the lucky draw. Each household was allowed to register one woman. PRF assigns households poverty ranks using a participatory approach. It had last conducted a poverty ranking exercise in 2016. This ranking assigned each household in PRF villages to 1 of 4 poverty levels: poorest, poor, middle-income, and better-off6. As each woman registered for the RMG lucky draw, lucky draw staff recorded the woman’s age and 2016 PRF poverty ranking. Seventeen women were also excluded on the basis of their poor health7. The village head advised on changes to household poverty status, which was necessary as since 2016, several households’ statuses had experienced economic shocks or changed due to marriages. The updated 2018 poverty ranking for each household was also recorded. Women were then entered into the lucky draw based on their 2018 poverty rankings. Each village had a target quota for RMG and waitlist members. The required number of RMG members depended on the length of road to be maintained—approximately 1 RMG member per kilometer. The waitlist quota was set at 1.5x the number of RMG members, rounding up to the nearest whole number. (For example, if a village required 5 RMG members, the waitlist target was 8, for a total target of 13 women to enter the lucky draw.) Women were entered by poverty ranking bracket. All poorest and poor households were automatically eligible to enter the lucky draw. If too few poorest and poor women registered for the lucky draw, interested and eligible women in the middle-income ranking were entered. If there were still 5 Because of an error in the randomized RMG selection process, only 70 of the RMGS and 339 of the RMG members are included in the impact evaluation. Narm tar lang Village in Viengphoukha District, Luangnamtha Province is participating in the RMG project but is not included in the impact evaluation sample. 6 These rankings combined proxy assessments of income and wealth with a community validation process. 7 The age ranges of these women were: 1 in her 70’s, 4 in their 60’s, 11 in their 50’s, and 1 in her 40’s.",
+        "text_chars": 3771,
+        "used_ocr": false
+      },
+      {
+        "page_number": 9,
+        "source": "native",
+        "text": "8 too few women, those ranked better-off were also entered. Poverty ranking brackets were included as whole brackets—no divisions were made between women in the same bracket. Once the number of interested and eligible women had been tallied, staff announced the names of those who were ultimately eligible to enter the lucky draw. The lucky draw system was explained: each woman would draw a numbered ping pong ball from an opaque box. Those with the lowest numbers would enter the RMG and the remaining women would enter the waitlist in the order of the numbers they drew. For example, if a village required 5 RMG members and 20 women entered the lucky draw, those who drew numbers 1-5 entered the RMG, the woman who drew #6 was in 1st place on the waitlist, the woman who drew #7 was in 2nd place on the waitlist, etc. The lucky draw was then conducted in front of the assembly. As each woman selected a ping pong ball, her drawn ball was displayed to the crowd, announced aloud, and recorded. There were no complaints regarding the procedure or results. 3. Baseline data 3.1. Data collection Baseline data collection took place after the RMGs were formed but before any salary payments were made to RMG members8. Collecting data before RMG members received any salary payments allows the impact evaluation to capture the “status quo” in terms of economic conditions and empowerment. When endline data is collected, after approximately 18 months of salary payments, the study will be able to compare between the two states, producing a rigorous examination of the effects of these payments on the welfare of the households and women’s empowerment covering their decision-making power, roles in community leadership, and related matters. Data was collected by Indochina Research Laos (IRL) under supervision of the World Bank (WB). Data collection began in September 2018 and concluded within the first week of October 2018. Nine (9) teams of 5 enumerators and 1 team leader (54 individuals total) surveyed RMG and waitlist (WL) women, as well as a random sample (RS) of women from each RMG village. These teams additionally surveyed the village heads on RMG selection preferences. A separate set of 7 enumerators collected data on the prices of common products in the primary local markets in each village in RMG villages and their neighboring villages. The RMG/WL/RS, village head, and market price surveys are described further in Section 3.2. The survey methodology and instruments were approved by an international ethical review board: HML Institutional Review Board, based in Washington, DC. The instruments were tested and refined through two rounds of piloting conducted prior to interviews with any of the study participants. These pilots were conducted in Sangthong District, Vientiane, chosen balancing the needs of convenience with testing on a population similar to the study sample (i.e. living in rural or semi-rural settings). Over 30 pilot interviews were conducted. All participants were informed of the study objectives, partners, and general survey content and expected interview length when solicited for interviews. Each participant’s informed consent was 8 Salary payments were rolled out as project areas completed baseline data collection.",
+        "text_chars": 3266,
+        "used_ocr": false
+      },
+      {
+        "page_number": 10,
+        "source": "native",
+        "text": "9 required before beginning any interview. Confidentiality was ensured for each participant. After concluding the interview, each participant was presented with a printed family photograph as a thank- you gift for their participation in the study. IRL implemented quality control measures by: using electronic tablets for data collection to minimize data entry errors, observing enumerator interviews in the field, reviewing data as it was collected for errors and discrepancies, and checking final data as it was cleaned for gaps and errors. Data collection was carried out using tablets for most of the surveys. In fifty-five (55) cases, surveys were carried out using paper questionnaires because of technical issues with the tablets; these were later entered digitally. The tablets were designed with skip-patterns built-in (i.e. to automatically skip irrelevant questions), based on respondents’ prior answers. The tablets also recorded segments of the interviews9. Team leaders sat in on a random selection of enumerators every day to oversee the survey procedures. 10% of each enumerator’s interviews were evaluated in this way. Senior IRL survey staff (Survey Director, Fieldwork Manager, and Fieldwork Supervisor) additionally randomly observed interviews for quality. IRL staff based in Vientiane reviewed audio files of recorded interview segments for errors and conducted back-checks to verify the validity of the recorded answers10. Discrepancies identified via back- checks were investigated and resolved. The collected data as a whole was assessed for outliers and gaps. WB staff also oversaw enumerator training and selection, observed data collection in the field, and reviewed final data for quality. 3.2. Survey instruments Several questionnaires were administered under the baseline survey: Household Questionnaire (HQ), Individual Questionnaire (IQ), Random Sample Questionnaire (RSQ), Targeting Survey, and Market Price Survey.  HQ: Administered to RMG and WL households. Any member of the household knowledgeable about household income, labor, assets, and related issues was eligible to answer the questions.  IQ: Administered to the members of the RMG and WL groups. These participants could not be replaced if the RMG or WL woman was not available or refused to be interviewed.  RSQ: Administered to a random sample of households in the RMG villages who had at least one female member aged 18-55. The questionnaire was identical to the Household Questionnaire, with the exception of including 2 additional modules: Poverty Rankings and Connections. A female HH member aged 18-55 was randomly sampled within each RS household to answer the Nutrition module. RS households and women could be replaced if the original selections were unavailable or refused to participate. 9 Complete audio recordings were unfeasible given the 2-hour length of the interviews and associated large audio files. These were too large to transmit to the central, Vientiane-based IRL office from the survey locations in remote villages. 55 question were chosen for recording based on complexity of the questions, with the more complex questions being recorded. The recording of these questions was unknown to the data collection team. 10 Central IRL staff reviewed 25 of the recorded 55 questions for each enumerator daily and, without referencing the enumerator’s answer, recorded their own answers to the questions based on the recordings. Answers were then compared between those recorded by central IRL and those by the enumerators.",
+        "text_chars": 3539,
+        "used_ocr": false
+      },
+      {
+        "page_number": 11,
+        "source": "native",
+        "text": "10  Targeting Survey: Administered to the village heads. It asked them to rank 15 women and their households (5 RMG, 5 WL, and 5 RS) according to wealth proxies and suitability for being an RMG member.  Market Price Survey: Recorded the prices of common items sold in local markets. It was conducted in 85 RMG villages and 73 villages neighboring the RMG villages but without RMGs of their own. Table 1: Modules within Household, Individual, and Random Sample Questionnaires. HQ IQ RSQ Module Module Content X X Contact Information (CO) Basic contact information of survey respondents X X Household Roster (HR) Basic demographic information of respondents’ households (e.g. age, sex, education level, ethnicity) X X Household Enterprises (HE) Household ownership and labor contribution to household-owned farms and businesses – separated from Labor Force module, which measures labor contributed to employment in farms/businesses not owned by the household X X Labor Force I (LF) Employment status of household members in past 7 days X X Labor Force II (LF) Details on employment status of household members in past 7 days (e.g. hours worked, income earned) X X Housing Conditions (HC) Number and building structure of residential homes owned by household, including electricity and water source X X Possession of Durables (PD) Count of household assets X X Household Income (HN) Household employment and income information for past 12 months X Savings (AV) Ownership and purpose of household savings accounts X X Nutrition (NT) Nutrition intake of RMG/WL/RS woman and 2 youngest non-breastfeeding children aged 2-5 years, household meat/fruit/vegetable consumption, RMG/WL/RS woman’s use of contraception X X Economic Shocks (EH) Death and severe illnesses and farm/business losses in past 2 years within household X X Subjective Wellbeing (UW) Estimation of overall satisfaction with life; estimation of current, past, and future wealth status X Poverty Rankings (PR) Household knowledge of government-organized poverty rankings, estimation of poverty status compared to neighbors X X Connections (CN) Household personal or familial relationships with village head X Households & Families (HF) Division of income and expenses among household members X Time Use (TU) Activities of RMG/WL woman and household children over past 2 days",
+        "text_chars": 2336,
+        "used_ocr": false
+      },
+      {
+        "page_number": 12,
+        "source": "native",
+        "text": "11 X Comparative Earnings & Labor (CE) RMG/WL woman’s estimation of earnings compared to husband’s, estimation of physical exhaustion and amount of labor compared to neighbors X Education (ED) Education status and expenses of household children X Childcare (CC) Use and costs of childcare in past 7 days X Locus of Control (LC) Assessment of personal ability to control wealth, success in farming, and relationships X Values (DM) Valuation of importance to RMG/WL woman of making various household decisions *To test for leading the participants: In half of surveys, administered before the Decision-Making module, and administered after the Decision-Making module in the other half. X Decision-Making within Household (DM) Record of household decision-maker for various issues, level of RMG/WL woman’s involvement in the decision- making process X Leadership & Influence in the Community RMG/WL woman’s assessment of ability to participate in community leadership activities X Gender-Based Violence Norms (GN) RMG/WL woman’s opinion of acceptable cases for beating wives/sons/daughters X Division of Resources (DR) Estimation of household poverty status and poverty status of neighbors; perspectives on village head’s participation in RMG member selection process, on level of success of RMG pro-poor targeting, on how limited job opportunities should be allocated, and on how salary should be assigned X Payment Preferences (PP) * Administered only to RMG members Preference for salary payment every 3 months vs monthly X Perception of RMG Utility (PU) Opinion on efficacy of the village road maintenance group Questionnaires are available upon request. 3.3. Sample RMG and WL households The target sample for data collection was based on the number of women recruited into RMGs via lucky draw (339) and those who entered the waitlist (843), as well as 1 targeting survey and 1 market price survey per RMG village (87 of each survey), and 734 Random Sample households and women. Some RMG and WL households and/or women were temporarily unavailable, refused to participate in the interviews, or had moved out of the villages and could not be interviewed. Also, several villages",
+        "text_chars": 2178,
+        "used_ocr": false
+      },
+      {
+        "page_number": 13,
+        "source": "native",
+        "text": "12 merged. Therefore, completed interviews were: 333 RMG women, 813 WL women, 742 RS households/women, 85 village heads (targeting survey) and 158 market price surveys. Random Sample Women To analyze differences between the households in our study and other households in their villages, a subset of the data was also collected from randomly selected households in RMG villages. For some villages, PRF had relatively complete list of households in the village from the PRF 2016 poverty ranking11. In these villages, “Random Sample” households were selected in advance12. For villages where PRF did not have an up-to-date list of households, IRL first met with the village head to list all households in the village with at least 1 female member aged 18-55. Then the households were randomly selected13. IRL used Kish grids to select the woman to interview within each Random Sample Household (only women answered the Nutrition module). Market Price Survey Eighty-five (85) villages are covered by the 70 RMGs included in the impact evaluation study. Market price surveys were conducted in these 85 villages and 73 neighboring villages at baseline. IRL gathered information about where the majority of the people in the community did their grocery shopping for different types of products and collected price data for these products from those markets. For example, if most villagers bought everyday food items in village shops and say, food seasoning in a larger non- local market, the price survey of everyday food items would be collected from the village shops while the prices of food seasoning would be taken from the larger market. 4. Did randomization work? As described previously, women were selected for RMGs at random from among a pool of eligible women. Women who were not selected for the RMG were assigned to the waitlist. If the randomization was successful, these two groups should be roughly similar since the only difference between them is that every woman in one group randomly selected a ping-pong ball of a lower number. Because the impact evaluation compares the differences before and after receiving wage payments between RMG and WL women, it is important to know whether there were any pre-existing differences between the two groups at baseline (i.e. even before the program was active). 4.1. Basic demographics The tables below compare several characteristics of RMG and WL women. In general, the tables show the average value for each of the two groups, the difference between them and the ‘p-value’ of that difference. The p-value is the probability of observing a difference of that size in a random subset of the population, even if the means of the two populations were equal. A p-value under 0.10 indicates that the probability of randomly seeing this difference if the two groups had the same average would be less 11 A household list was considered sufficiently complete if more than 55% of the households could be identified through the 2016 poverty rankings sheet during the RMG member selection process. The Random Sample was selected manually in villages with outdated lists or where the poverty lists did not note the households’ ethnicity. 12 WB also provided a replacement (replaced if without any female members aged 18-55/after 3 attempts to reschedule/refused to participate/if already an RMG or WL household). 13 IRL used a random number table to select the households in the field. For villages where we had pre-existing listing data, randomization was carried out on Stata.",
+        "text_chars": 3522,
+        "used_ocr": false
+      },
+      {
+        "page_number": 14,
+        "source": "native",
+        "text": "13 than 10%, i.e. not very likely. We use the p-value as a simple way of checking whether the two groups in fact are similar (share the same means). The tables below suggest that randomization was effective in creating two roughly similar groups. There are very few characteristics14 in which the differences between the groups are statistically significant at baseline. Table 2: Demographic characteristics (Waitlist versus RMG women) Waitlist RMG Difference Variable N mean N mean Waitlist- RMG p-value Age of surveyed woman 813 33.26 333 32.72 -0.54 0.43 % Married 813 87% 333 89% 2% 0.34 % Non-Lao (minority across Laos) 813 87% 333 87% 0% 0.96 % Minority ethnicity within village 813 9% 333 10% 1% 0.65 Number of years of education 813 2.46 333 2.47 0.00 0.99 Table 2 shows that RMG and WL women share similar demographic characteristics: both are, on average, 33 years old, most are married, and non-Lao. Both are fairly likely to be part of the main ethnic group in their villages. And both have approximately 2.5 years of formal education. Table 3: Household composition (waitlist versus RMG women) No. household members Waitlist RMG Difference N mean N mean Waitlist- RMG p-value Children under 5 813 0.78 333 0.86 0.08 0.24 Aged 15-65 813 3.31 333 3.46 0.14 0.22 Aged 5-15 813 1.57 333 1.77 0.21 0.03 Aged over 65 813 0.18 333 0.19 0.01 0.73 Total 813 5.85 333 6.28 0.44 0.03 Table 3 shows that the households of RMG and WL women look similar in terms of their composition. However, there are a couple of exceptions: the households that RMG members belong to are slightly larger, and interestingly, have slightly more children aged between 5-15. Both groups of households typically have a few children aged under 15 and several adult members. Household composition can affect household labor supply and the types of economic activities taken up by the household and each of its members, so the absence of any major difference is important. 14 Given the number of outcomes across which we test, we can expect to encounter some unlikely events (i.e. events with a probability of under 10%).",
+        "text_chars": 2098,
+        "used_ocr": false
+      },
+      {
+        "page_number": 15,
+        "source": "native",
+        "text": "14 4.2. Wealth Table 4: Differences in characteristics of residence (waitlist versus RMG) Waitlist RMG Difference N mean N mean Waitlist- RMG p-value No. buildings 813 1.04 333 1.05 0.01 0.58 No. rooms? 813 1.91 333 1.93 0.02 0.83 % w/brick wall 813 13% 333 13% 0% 1.00 % w/concrete roof 813 0% 333 1% 0% 0.82 % w/solid floor 813 20% 333 19% 0% 0.90 % w/piped water 813 18% 333 16% -2% 0.45 % w/piped water or well 813 76% 333 74% -1% 0.71 % w/o toilet 813 58% 333 58% 0% 0.88 % w/kitchen inside house 813 50% 333 53% 3% 0.40 % wood for cooking 813 99% 333 99% 0% 0.80 % electricity for energy 813 39% 333 37% -2% 0.61 Monthly spending on cooking (Kip) 813 1,763 333 1,201 -562 0.59 Comparing the characteristics of the houses that RMG and WL women and their households live in, we do not see statistically significant differences. Their households primarily occupy 1 building with 1 or 2 rooms. Few have improved, brick walls or concrete roofs. Slightly over half lack toilets, and less than half have electricity. Almost all cook with firewood and about half cook inside their homes. However, most obtain their drinking water from a piped source or a well. Housing is also a proxy for the wealth of the household, so this is also partially suggestive evidence for wealth differences between the two groups being small. Table 5: Ownership of durable assets (waitlist versus RMG) Waitlist RMG Difference N mean N mean Waitlist- RMG p-value No. vehicles (car, van, etc.) 813 0.02 333 0.03 0.00 0.82 No. motorcycles 813 0.74 333 0.76 0.02 0.74 No. bicycles 813 0.05 333 0.05 -0.01 0.66 No. tractors (2wheels) 813 0.22 333 0.22 0.00 0.99 No. agricultural equipment 813 9.58 333 9.71 0.13 0.74 No. fishing nets 813 0.54 333 0.56 0.02 0.68 No. rice mills 813 0.28 333 0.28 0.01 0.85 No. fridges 813 0.09 333 0.10 0.02 0.45 No. sewing machines 813 0.06 333 0.04 -0.02 0.22 No. electric rice cookers 813 0.06 333 0.06 0.00 0.82 No. steam rice cookers 813 1.46 333 1.45 -0.01 0.82 No. food processors 813 0.01 333 0.01 0.00 0.80",
+        "text_chars": 2020,
+        "used_ocr": false
+      },
+      {
+        "page_number": 16,
+        "source": "native",
+        "text": "15 No. TVs 813 0.33 333 0.30 -0.04 0.25 No. radios 813 0.15 333 0.14 -0.01 0.80 No. phones 813 0.13 333 0.10 -0.03 0.26 No. mobiles 813 1.39 333 1.48 0.10 0.28 No. jewelry 813 0.31 333 0.29 -0.02 0.75 No. mosquito nets 813 2.93 333 2.91 -0.02 0.86 No. solar panels 813 0.22 333 0.25 0.02 0.41 Another way to look for differences in wealth between the two groups is to compare across their ownership of assets. Under assets, we include a broad range of items covering productive assets like land and livestock and durable consumer goods. The full list is too long to present here, but Table 5 shows both RMG and WL households own similar quantities of durable assets for a selected subset of items, which were included into the questionnaires. Both RMG and WL households possess few durable assets, particularly productive assets. These are not highly common, not even transport assets (which road maintenance could increase the value of). 4.3. Food consumption Table 6: Consumption (waitlist versus RMG women) Waitlist RMG Difference N mean N mean Wailist-RMG p-value No. balls glutinous rice consumed yesterday 813 3.01 333 2.88 -0.13 0.49 No. balls of ordinary rice 813 0.64 333 0.80 0.17 0.20 No. days you ate meat in last 7 days 813 2.74 333 2.81 0.07 0.62 No. days you ate eggs in last 7 days 813 0.53 333 0.57 0.04 0.59 No. days you ate dairy in last 7 days 813 0.11 333 0.11 0.00 0.95 No. kilos meat p/week 813 1.21 333 1.25 0.04 0.66 No. kilos fish p/week 813 1.04 333 1.09 0.05 0.51 No. kilos vegetables p/week 813 4.66 333 4.61 -0.06 0.85 No. kilos fruit p/week 813 1.97 333 2.21 0.24 0.22 RMG and WL women and their households also have similar food consumption patterns. The women tend to eat 3 balls of glutinous (or “sticky”) rice and less than 1 ball of ordinary rice per day. They report eating meat 2-3 days out of the past 7. Few have consumed eggs or dairy. Their households consume mainly vegetables (4-5 kilos per week), followed by fruit, meat, and fish. On average, all households reported consuming at least some meat and fish in the past week. 4.4. Employment Since RMGs were active at the time of baseline data collection but RMG wages had not yet been distributed, there are differences in labor force participation between RMG and WL women.",
+        "text_chars": 2268,
+        "used_ocr": false
+      },
+      {
+        "page_number": 17,
+        "source": "native",
+        "text": "16 Figure 1: Differences in patterns of employment (waitlist versus RMG women) Figure 1 shows statistically significant differences between RMG and WL women. RMG women are less likely than WL women to have no employment and are more likely to have non-household employment (such as RMG jobs). RMG members are somewhat less likely to report working only within a household farm or business enterprise. This is likely the effect of RMG women accounting for their RMG jobs. Table 7: Differences in income (waitlist versus RMG women) Waitlist RMG Difference N mean N mean Waitlist-RMG p-value Income, by source Rice 769 432368.01 324 315586.42 -116781.59 0.13 Agriculture (not rice) 260 4553250.00 112 3176348.21 -1376901.79 0.07 Livestock 393 2834386.77 161 2758950.31 -75436.46 0.89 Aquaculture 72 239097.22 29 662758.62 423661.40 0.02 Forests 478 935225.94 210 830080.95 -105144.99 0.40 Handicrafts 160 2112756.25 65 1342815.38 -769940.87 0.15 Commerce 46 2824021.74 16 1517500.00 -1306521.74 0.27 Wages 92 13732413.04 71 5069704.23 -8662708.82 0.00 Secondary Wage 203 2238640.39 79 2225708.86 -12931.53 0.98 Other Income 813 441493.23 333 547888.89 106395.65 0.45 Total Income 813 6994107.01 333 5782699.70 -1211407.31 0.07 Overall, RMG and WL women report similar incomes from over the past 12 months (Table 7). However, there are a few significant differences. A part of this may be driven by small sample sizes – particularly for differences in income from aquaculture, wages and non-rice agriculture – as relatively low number of households have these sources of income, the sample sizes for these categories of income are too low to make any conclusive inferences. However, WL women also report slightly higher incomes for total income. This may reflect the fact that RMG women were working on RMG jobs (which potentially displaced other wage work opportunities or work on agriculture or other economically rewarding work) and had yet to be paid. 17% 47% 9% 28% 23% 6% 20% 0% 10% 20% 30% 40% 50% 60% No employment Work on household farm or business only Non-household employment Both RMG WL",
+        "text_chars": 2095,
+        "used_ocr": false
+      },
+      {
+        "page_number": 18,
+        "source": "native",
+        "text": "17 5. Sample characteristics 5.1. Location Table 8 below presents the distribution of sample across different RMGs. Table 8: geographical distribution of the sample Province District # RMGs # RMG members # WL members # Random Sample Luangnamtha Nalae 1 4 9 8 Phongsaly Samphanh 5 27 53 42 May 1 8 20 9 Khua 5 22 57 51 Huaphanh Huameung 3 15 25 25 Xamtay 3 13 34 26 Kuan 4 20 35 33 Xamnuea 6 27 45 53 Oudomsay Pakbeng 1 3 13 9 Hoon 4 15 36 42 Savannakhet Atsaphone 2 12 36 57 Phine 3 13 23 42 Sepone 4 17 43 39 Nong 1 7 13 17 Thapangthong 2 7 17 26 Saravan Ta Oi 2 11 34 36 Toumlarn 3 12 46 50 Luang Prabang Phonxay 2 9 25 17 Nambak 1 3 7 9 Pakxeng 5 23 83 40 Viengkham 7 82 64 7 Phonthong 5 28 77 47 Total 22 70 333 813 742",
+        "text_chars": 723,
+        "used_ocr": false
+      },
+      {
+        "page_number": 19,
+        "source": "native",
+        "text": "18 5.2. Demographics Although the RMG program targeted women aged 18-50, the age requirement was not strictly enforced. Consequently, we do observe some women who are older than the upper age-bound, and some who are younger than the age bound. However, most women are well below that age, with an average age of 33. Most women are married or living with a partner. As Table 10 shows, some of the unmarried women were previously married and separated, divorced, or widowed. Only 4% are ‘never married’. Table 9: Sample basic demographics N mean SD Min max Age of surveyed woman 1,888 33.39 10.43 15 76 % Married 1,888 89% 0.31 % Non-Lao 1,888 88% 0.33 % belonging to minority ethnicity in village 1,888 10% 0.30 No. years of education 1,888 2.53 3.01 0 18 Table 10: Marital status of sample women (RMG and Waitlist women) Marital status N % Married or living with partner 1,685 93% Divorced 34 2% Separated 13 1% Widowed 80 4% Never married 76 4% Total 1,812 88% of the women in our sample don’t belong to the dominant ethnicity in Laos, i.e. are non-Lao. However only about 10% don’t belong to the dominant ethnicity in their own village, which suggests that the program is operating in geographic areas that contain a larger percentage of ethnic minorities. Table 11 shows the distribution of ethnic groups – a large number of the women are Khmu (41%), but no other ethnicity has a large representation – Katang, Lao, Hmong and Tai all hover around the 10% mark. Table 8: Ethnicity of sample women (RMG and Waitlist women) Ethnicity N % Khmu 771 41% Katang 250 13% Lao 235 12% Hmong 140 7% Tai 112 6% A kha 76 4% Pako 4 0% Other 300 16% Total 1,888",
+        "text_chars": 1649,
+        "used_ocr": false
+      },
+      {
+        "page_number": 20,
+        "source": "native",
+        "text": "19 As Table 9 shows, the women also have relatively low levels of education – only 2.5 years on average. This is because a larger number of women either have not attended school or have only attended primary school (Table 12 below). Only 11% of the women have attended any post-primary educational institution. Table 9: Highest level of education attended (RMG and Waitlist women) Highest level of education attended N % Never attended school 482 42% Kindergarten school 3 0% Primary 530 46% Lower secondary 114 10% Upper secondary 16 1% Master or higher 1 0% Total 1,146 5.3. Comparison to a nationally representative sample Comparing the basic demographic characteristics women in our study sample to women in the Laos Expenditure and Consumption Survey (LECS) living in rural areas and aged between 15 and 49, we find a few interesting differences15. The women in our sample are older by about 3.5 years on average. Table 10: Demographics LECS RMG and WL Difference (LECS – RMG and WL) Demographics N mean N mean p-value Age 8,279 29.60 1,146 33.10 -3.50 0.00 % Married 8,277 0.71 1,146 0.87 -0.16 0.00 % Non-Lao 8,279 0.59 1,146 0.87 -0.28 0.00 No. years of education 5,231 5.38 1,146 2.46 2.91 0.00 Since the age eligibility cutoff of 50 was not strictly enforced in our sample, about 7% of women in our sample were older than 50. However, the difference with LECS does not appear to be due to not strictly enforced age limit only. As figure 2 below shows, even restricting the comparison to women in our sample aged 49 and under, the women in LECS skew younger. 15 Note that due to the fact that age limits were not strictly enforced, there is a discrepancy between age groups in LECS and in our data. When we limit both samples to 18-49 year old women, the results remain very similar (available upon request).",
+        "text_chars": 1817,
+        "used_ocr": false
+      },
+      {
+        "page_number": 21,
+        "source": "native",
+        "text": "20 Figure 2: Distribution of population by age, LECS (red) versus Study Sample (Blue) The other ways in which our sample differs from a representative sample of women is that the women in the RMG and WL are more likely to be married and less likely to be of Lao ethnicity. The levels of education are also much lower – the women in our study sample have less than half as many years of education as women in the LECS sample. These differences are aligned with the targeting of the program to women in remote rural of Laos who face a number of disadvantages – not belonging to the dominant ethnic group, with low levels of education. 6. Economic profile Since the study is set among a predominantly rural population, it should come as no surprise that most households own some agricultural land, even if they do not actively farm it (Table 14 below). Similarly, livestock ownership is also common, with most (95%) of households owning some type of livestock. Table 15 below shows the most common types of livestock. Table 11:Land and housing mean SD No. plots agricultural land 2.30 1.68 No. plots residential land 1.07 0.33 No. business buildings 0.04 0.21 Sqm of agricultural land 21221.92 27732.56 Sqm of residential land 409.56 1078.45",
+        "text_chars": 1238,
+        "used_ocr": false
+      },
+      {
+        "page_number": 22,
+        "source": "native",
+        "text": "21 Table 12: Ownership of livestock among study sample mean SD No. cows 1.49 3.26 No. buffalos 0.70 1.71 No. goats 0.65 2.02 No. pigs 1.97 2.57 No. chicken 9.81 14.35 No. ducks 2.12 4.46 HAVE ANY LIVESTOCK 95.67% Ownership of land and livestock are also reflected in the response of the study sample to questions on whether they own a farm or household enterprise. Most household own a farm. Few own a household business. Table 13: Household ownership of farm or business Yes % Farm or household enterprise? Household has a farm 1112 97.03% Household has business? (Y/N) 72 6.28% Is farm or business commercial? Farm is commercial (rather than subsistence) 99 8.90% Farm pays wages to any workers 19 1.71% Enterprise pays wages to any workers 1 1.39% It is interesting however, to dig deeper into the types of farms and businesses that the households run. As Table 16 indicates, only a small percentage of households (~9%) think of the primary purpose of the farm as being commercial. The vast majority view the output of the farm as being primarily for their own consumption. This picture of household farms being primarily for subsistence is backed up by the fact that very few households employ any labor on the farm. Most households rely on unpaid household labor. We see something similar in the case of the household business. Despite 72 households owning some type of business, only 1 household reported paid wages for employees of the business. These businesses are therefore typically micro-enterprises with few outside employees.",
+        "text_chars": 1539,
+        "used_ocr": false
+      },
+      {
+        "page_number": 23,
+        "source": "native",
+        "text": "22 6.1. Employment (other members of the household) Turning to the economic activities of individual household members, we see this pattern continue. In this section we exclude RMG and Waitlist women from the analysis (See the next chapter where they are studied separately). Table 17 below shows us that only a fifth of working-age household members are employed in non-household wage work. Table 14: Employment pattern of other household members in RMG and Waitlisted women’s households Employment status N % Not doing any type of wage work 2,930 78.22% Doing some type of wage work 816 21.78% Total 3,746 100.00% However, 35% of working-age household members are engaged in work on the household farm or business. Even among the ~20 % who are employed on off-household work, more than half combine this employment with work on the household farm or business (Table 18). Table 15: Participation in economic activities of other household members in RMG and Waitlisted women’s households Participation in economic activities N % None 1,629 43.49% Household farm or business only 1,301 34.73% Wage employment only 374 9.98% Both 442 11.80% Total 3,746 100.00% 6.2. Employment and time-use (women) Most of the women in our sample are engaged in some form of economic activity. However, since a large number of the households operate a household farm or business that women contribute to, the full picture of their labor force participation involves understanding their contribution to these enterprises too. Only about a fifth of the study sample reported not being engaged in either the household enterprise or farm or in wage work in some way. In contrast, a majority of women, more than 70%, reported that they worked on the household farm or business. Some women also work outside the household as wage workers. However, the number of women that do exclusively this type of non-household wage work (7%) is much smaller than the number of women who combine this activity with working on either the household farm or business (20%). Table 16: Participation in economic activities, study sample. Working on… N % No employment 431 22.83 On household farm or business only 944 50.00 Non-household employment only 133 7.04 Both 380 20.13 Total 1,888 100",
+        "text_chars": 2249,
+        "used_ocr": false
+      },
+      {
+        "page_number": 24,
+        "source": "native",
+        "text": "23 The IE investigates women’s time use to see if participating in RMGs interferes with women’s original labor activities or if the RMG jobs truly function as manageable part-time work, supplementing prior labor and income-earning opportunities without causing serious disruption. Looking at time use also allows us to see if earning (additional) income allows women to enjoy more leisure time or engage more in community activities, and if there is a shift in their domestic labor burdens. The survey also asks about household children’s activities; the endline survey will indicate if children of RMG members spend more time in school and less time in work activities. Table 20: How study sample spent time in the two days prior to being surveyed Number of hours spent in the last two days on... N Mean SD Paid work 1,146 1.20 3.80 Unpaid work 1,146 9.50 6.59 Household non-economic activities 1,146 9.05 5.69 Household economic activities 1,146 2.63 4.24 Community participation 1,146 0.05 0.39 Eating, sleeping, leisure 1,146 29.70 5.94 Travel 1,146 1.67 2.19 Other tasks 1,146 0.52 1.61 While there is a good deal of variability in the amount of time RMG and WL spent on the listed activities in the two days prior to the baseline survey, it is apparent that on the whole women spent very little time in paid labor and negligible time in community activities16. Unpaid work and domestic labor account for the majority of women’s productive time use, far outstripping even the amount of time allocated to household farms and businesses. 6.3. Income Unsurprisingly, we see that the sources of income in these households are quite concentrated. Most households earn an income from rice. Some households earn incomes from non-rice agriculture and agriculture-related activities such as rearing livestock, aquaculture or forests. A much smaller proportion earn incomes from wages. This is important because the average earning for each of these different sources of income is quite different. Earnings from wages, for instance are quite high, but few households have any earnings from wages. In contrast, though earnings from rice cultivation are common, the incomes from rice cultivation are quite low. Table 17: Household income for RMG and Waitlisted women households N % of sample mean (in kip) mean (in USD) Rice 1,807 96% 433,334 50.99 Agriculture 590 31% 4,295,135 505.37 Livestock 920 49% 3,079,862 362.38 16 There is actually almost no variability in amount of time spent in community participation. Across the 1146 women who answered Time Use questions, almost no one engaged in community activities.",
+        "text_chars": 2610,
+        "used_ocr": false
+      },
+      {
+        "page_number": 25,
+        "source": "native",
+        "text": "24 Aquaculture 174 9% 342,793 40.33 Forests 1,064 56% 910,535 107.13 Handicrafts 335 18% 1,982,081 233.21 Commerce 120 6% 3,128,775 368.13 Wages 273 14% 13,727,828 1,615.23 Secondary wage 438 23% 2,169,600 255.28 Sale of assets 16 1% 6,232,500 733.32 Other income 1,888 100% 421,382 49.58 Total income 1,888 100% 7,315,579 860.76 Ex rate used: 1 USD = 8499Kip17; 6.4. Economic shocks This feeds into one of the strongest findings that emerges from the baseline data—that economic shocks are highly common in the study sample. Over 90% of study households reported having experienced at least one type of economic shock in the prior two years. The most common shocks are the loss of livestock, illness or injury of a family member and crop loss. The death of a family member and drought are also relatively common. These types of shocks can have serious consequences for well- off households but in a population that is already poor, the consequences can be dire. The prevalence of shocks makes vulnerability an important consideration from a macro perspective: even households that are able to escape poverty in one year remain highly susceptible to slipping back into poverty. Table 18: Economic shocks experienced in the previous two years. Type of shock N % Death of HH member 142 12.39% Illness or serious accident of HH member 647 56.46% Unemployment or business failure 75 6.54% Drought 204 17.80% Total loss of crop 478 41.71% Loss, robbery or death of production animals 758 66.14% ANY OF THE ABOVE 1,088 90.49% 6.5. Comparison to nationally representative sample The households in the study sample are much poorer than households in the LECS sample. We restrict ourselves in this report to comparisons on two measures linked to wealth and consumption. For wealth, one measure is the quality of housing. On every dimension of housing quality that are captured both in our baseline data and in the LECS, the study sample is significantly more likely to live in houses that have poorer characteristics (Table 23). When we use other measures of wealth, such as ownership of assets (across a range of productive assets, consumption assets and livestock), this pattern is replicated, again, with high statistical significance. 17 Rates as of Sep 30, 2018 drawn from freecurrencyrates.com",
+        "text_chars": 2290,
+        "used_ocr": false
+      },
+      {
+        "page_number": 26,
+        "source": "native",
+        "text": "25 Table 19: Housing characteristics LECS RMG+WL Difference Housing characteristics N mean N mean diff (v LECS) p-value Number of rooms 8,259 2.52 1,146 1.92 0.60 0.00 Has brick wall (Y/N) 8,267 25% 1,146 13% 0.12 0.00 Has concrete roof 8,267 1% 1,146 1% 0.00 0.70 Has solid floor 8,267 29% 1,146 19% 0.09 0.00 Has piped water 8,267 0% 1,146 18% -0.18 0.00 Has piped water or well 8,267 1% 1,146 75% -0.75 0.00 Has toilet 8,267 63% 1,146 42% 0.22 0.00 Kitchen inside 8,267 41% 1,146 51% -0.10 0.00 Non-wood fuel for cooking 8,267 18% 1,146 1% 0.17 0.00 Electric lighting 8,267 64% 1,146 38% 0.26 0.00 The study sample also reported significantly lower levels of food consumption than the sample from LECS across all but one category of food – fruit, where the difference is not statistically significant (Table 24). Table 20: Food consumption LECS RMG+WL Difference Food consumption N mean N mean diff (v LECS) p-value No. balls glutinous rice yesterday 8,074 5.70 1,145 2.97 2.73 0.00 No. balls ordinary rice yesterday 8,074 0.95 1,146 0.68 0.27 0.00 Household no. kilos meat p/week 8,273 2.11 1,146 1.22 0.89 0.00 Household no. kilos fish p/week 8,273 2.49 1,146 1.05 1.44 0.00 Household no. kilos vegetables p/week 8,273 5.33 1,146 4.65 0.69 0.00 Household no. kilos fruit p/week 8,273 2.10 1,146 2.04 0.06 0.40 6.6. Subjective well-being The emerging picture is one of the study sample being located in remote rural Laos, lacking in access to economic opportunities. In order to capture other dimensions of welfare, we also asked the households directly about their own assessment of their well-being. These responses paint a happier picture. Only a small proportion of the respondents report dissatisfaction with the quality of their life and well over 3/4ths of the population report being satisfied. On a second question that asked them where they would place themselves on a six-step ladder going from poorest to richest, a large proportion of the population placed themselves on the bottom two rungs of the ladder. Given that these are largely households that are in the bottom two ranks of the PRF poverty rankings, this is not a huge surprise. What is interesting here is the responses about where this population saw itself 5 years prior and 5 years ahead suggests that they are optimistic. Most households saw themselves as being poorer 5 years",
+        "text_chars": 2357,
+        "used_ocr": false
+      },
+      {
+        "page_number": 27,
+        "source": "native",
+        "text": "26 ago and most see themselves being better off in five years’ time18. Indeed, in 5 years’ time, fewer than a third of households saw themselves remaining on the bottom two rungs (Table 26). Table 21: Subjective well-being (1) When you think about your life as a whole, how satisfied are you? 1. Completely satisfied. 248 (21.6%) 2. Very satisfied 320 (27.9%) 3. Somewhat satisfied 319 (27.8%) 4. Not very satisfied 195 (17.0%) 5. Not at all satisfied 64 (5.6%) Total 1146 Table 22: Subjective wellbeing (2): Cantril's Ladder Imagine a six-step ladder from poorest to richest. Where would you place yourself? Now 5 years ago 5 years from now 1 = Poorest 494 (43.1%) 650 (56.7%) 79 (6.9%) 2 352 (30.7%) 337 (29.4%) 254 (22.2%) 3 229 (20.0%) 113 (9.9%) 371 (32.4%) 4 54 (4.7%) 32 (2.8%) 242 (21.1%) 5 15 (1.3%) 6 (0.5%) 97 (8.5%) 6 = Richest 2 (0.2%) 1 (0.1%) 68 (5.9%) Don't know 0 (0%) 7 (0.6%) 35 (3.1%) Total 1146 1146 1146 7. RMG women empowerment indicators For the purpose of the impact evaluation, we collected data from women on a range of measures intended to capture their empowerment including such measures as locus of control, participation in household decision-making and participation in the community. However, some of these are psychometric measurements requiring more careful validation and analysis, which we are still in the process of carrying out. We plan to put out a separate note on this topic. However, for the purpose of this report, we report women’s responses on two measures – participation in decision making in their households and participation in the community. 7.1. Participation in HH decision making The baseline data asks women about their participation in household decision making on income earned by themselves, income earned by their partner and decisions over the purchase of expensive items. In this report, we consider one subset of these questions – who makes the final decision about purchasing expensive items for the household. We ask the women both what is the case currently and what they think should be the case. 18 Some of this is likely due to error. At the beginning of data collection, a number of HHs were answering where they *hoped* to be in 5 years, versus where they *expect* to be. Unclear how many HHs this impacted.",
+        "text_chars": 2280,
+        "used_ocr": false
+      },
+      {
+        "page_number": 28,
+        "source": "native",
+        "text": "27 As Table 27 below shows, a higher percentage of the women think that they should make the final decision about expensive purchases than the fraction that already do. This indicates that while women do participate in household decision-making, there is scope to increase the role that they play. Note that if the RMGs increase women’s empowerment, we would expect both the number of women who do and who believe they should make the final decision to increase. Table 23: Women's role in decision-making over income earned by them19. DM8c: Who usually makes the final decision about purchasing expensive items for your household? Yes (%) Participant 664 57.94% Participant's husband/partner 724 63.18% Participant's mother 56 4.89% Participant's father 63 5.50% Participant's husband's/partner's mother 37 3.23% Participant's husband's/partner's father 39 3.40% Participant's son/daughter 28 2.44% Participant's siblings 12 1.05% Participant's son-in-law/daughter in law 1 0.09% Participant's cousin 3 0.26% Participant's nephew/niece 1 0.09% DM8e: Who in the household should make the decisions regarding purchasing expensive items for your household? Yes (%) Participant 694 60.56% Participant's husband/partner 692 60.38% Participant's mother 56 4.89% Participant's father 61 5.32% Participant's husband's/partner's mother 31 2.71% Participant's husband's/partner's father 34 2.97% Participant's son/daughter 23 2.01% Participant's siblings 11 0.96% Participant's son-in-law/daughter in law 1 0.09% Participant's cousin 1 0.09% Participant's nephew/niece 2 0.17% 7.2. Community participation Among the other ways we capture women’s empowerment is to assess their ability to participate in the community and the leadership of the community since the community is an important decision-making unit whose decisions affects the lives of women. Data collected at baseline indicates that not many women are comfortable expressing their opinion in public. Once again, this suggests that there is an 19 Please note that the fractions do not add up to 100%, as the respondents were choosing all options that applied.",
+        "text_chars": 2111,
+        "used_ocr": false
+      },
+      {
+        "page_number": 29,
+        "source": "native",
+        "text": "28 important need for increasing women’s empowerment, including in their ability to express themselves so that they can be better represented in community decision-making. Table 24: Comfortable with expressing opinion? Can you raise your hand at village meetings? N % No, not at all comfortable 621 54.19% Yes, but with difficulty 137 11.95% Yes, comfortably 388 33.86% Total 1,146 Can you speak in public? N % No, not at all comfortable 655 57.16% Yes, but with difficulty 153 13.35% Yes, comfortably 338 29.49% Total 1,146 Can you criticize officials in public? N % No, not at all comfortable 760 66.32% Yes, but with difficulty 130 11.34% Yes, comfortably 256 22.34% Total 1,146 8. Targeting One of the principal objectives behind the baseline survey in the Laos RMG IE was to analyze how well the RMG program was targeted. Within each village, PRF aimed to target the RMG program to women in the poorest households. In practice, women from these households were given preference in the selection process over women from more well-off households. However, the process relied on inputs from the village heads – the village heads were responsible for letting villagers know in advance on which day to show up for the selection and for updating the poverty rank of the household on the day of the selection if it was deemed necessary. In both steps, there is potential for bias, arising either from a lack of information on part of the village head on who the poorest households in the village are, or potentially from a deliberate attempt to direct these jobs towards members of their choosing, who may or may not be poor. In order to test this, we collected baseline data from randomly selected households within the village with women of eligible age (we refer to this sample as the “Random Sample” or “Other women”). Comparing the characteristics of these households to the women and households in our study sample should tell us whether our study sample is indeed poorer than other households in the village, as the PRF intended. In short, the data suggests that this was the case. First, comparing the women in the study sample to the other women in the village on basic demographic characteristics, we find that the women in the study sample are less likely to be married than other",
+        "text_chars": 2289,
+        "used_ocr": false
+      },
+      {
+        "page_number": 30,
+        "source": "native",
+        "text": "29 women in the village. All other differences are not statistically significant. Notably, the difference in the likelihood of being married is higher. This may well be because female-headed households are households of women who are either widowed or separated and therefore missing at least one income earner, and who may have therefore been prioritized in the poverty rankings to receive the lower ranks. As such, we view it is a positive sign for the pro-poor targeting of the program. 8.1. Basic demographics Table 25: Comparison on basic demographic characteristics RMG+WL Other Women Difference (RMG&WL - Other) N mean N mean p-value Age of surveyed woman 1,146 33.10 742 33.85 0.75 0.13 % Married 1,146 0.87 742 0.92 0.05 0.00 % Non-Lao 1,146 0.87 742 0.88 0.01 0.53 % Non-dominant ethnicity within village 1,146 0.10 742 0.11 0.01 0.46 Number of years of education 1,146 2.46 742 2.64 0.17 0.23 Even when comparing across measures of wealth such as quality of housing or ownership of assets, it is clear that the study sample is poorer than randomly selected sample of women within the village. Starting with the quality of housing, we observe that other women in the village live in houses with more rooms and that are more likely to have a brick wall, use a non-wood source of fuel for cooking, and have access to electric lighting (Table 30). Note that all of these differences are statistically significant. 8.2. Wealth Table30: Comparison on housing characteristics RMG+WL Other Women Difference (RMG&WL - Other) N mean N mean p-value Number of buildings 1,146 1.05 742 1.06 0.01 0.27 Number of rooms 1,146 1.92 742 2.08 0.16 0.00 Has brick wall 1,146 0.13 742 0.17 0.04 0.03 Has concrete roof 1,146 0.01 742 0.00 0.00 0.17 Has solid floor 1,146 0.19 742 0.22 0.02 0.24 Has piped water 1,146 0.18 742 0.17 0.00 0.93 Has toilet 1,146 0.42 742 0.41 -0.01 0.75 Kitchen inside 1,146 0.51 742 0.44 -0.07 0.00 Non-wood fuel for cooking 1,146 0.01 742 0.03 0.02 0.00 Electric lighting 1,146 0.38 742 0.46 0.08 0.00",
+        "text_chars": 2021,
+        "used_ocr": false
+      },
+      {
+        "page_number": 31,
+        "source": "native",
+        "text": "30 Similarly, when turning to assets, both productive and durable consumer assets, we find that the study sample own less of almost every type of asset, with many of the differences being statistically significant (Table 31). The only exception is that the study sample have more steam rice cookers, but this may be because steam rice cookers are inferior substitutes for electric rice cookers which the Other Women have more of. Table 26: Comparison on ownership of assets RMG+WL Other Women Difference (RMG&WL - Other) N mean N mean p-value No. vehicles (cars, vans, etc.) 1,146 0.03 742 0.05 0.02 0.01 No. motorcycles 1,146 0.75 742 0.88 0.14 0.00 No. bicycles 1,146 0.05 742 0.07 0.02 0.18 No. tractors (2wheels) 1,146 0.22 742 0.33 0.11 0.00 No. fishing nets 1,146 0.55 742 0.64 0.09 0.04 No. fridges 1,146 0.09 742 0.17 0.08 0.00 No. sewing machines 1,146 0.05 742 0.07 0.02 0.15 No. electric rice cookers 1,146 0.06 742 0.10 0.03 0.01 No. steam rice cookers 1,146 1.46 742 1.40 -0.06 0.05 No. ricemills 1,146 0.28 742 0.31 0.03 0.13 No. TVs 1,146 0.32 742 0.42 0.10 0.00 No. radios 1,146 0.15 742 0.18 0.03 0.12 No. phones 1,146 0.12 742 0.12 0.00 0.77 No. mobiles 1,146 1.41 742 1.46 0.04 0.52 No. jewelry 1,146 0.30 742 0.34 0.04 0.38 No. mosquito nets 1,146 2.92 742 3.04 0.12 0.14 No. solar panels 1,146 0.23 742 0.28 0.05 0.04 This is also true of ownership of livestock. Women in the study sample own fewer cows, buffaloes and goats (differences that are statistically significant) than Other Women in the village (Table 32). Table 27: Comparison on ownership of livestock RMG+WL Other Women Difference (RMG&WL - Other) N mean N mean p-value No. cows 1,146 1.17 742 1.97 0.80 0.00 No. buffaloes 1,146 0.56 742 0.92 0.36 0.00 No. goats 1,146 0.52 742 0.85 0.33 0.00 No. pigs 1,146 1.92 742 2.05 0.13 0.27 No. chicken 1,146 9.72 742 9.94 0.23 0.74 No. ducks 1,146 2.12 742 2.11 -0.01 0.98 No. geese 1,146 0.01 742 0.01 0.00 0.84",
+        "text_chars": 1939,
+        "used_ocr": false
+      },
+      {
+        "page_number": 32,
+        "source": "native",
+        "text": "31 We also find that the RMG and WL women report lower incomes. However, we do not present the data on differences in income here because it is possible this is an artifact of the study. At the time of data collection, RMG women had started working but had not yet been paid. This may have temporarily lowered the earnings of RMG women (due to the shift from other activities to RMG work) and make them appear poorer than they are. 9. Perceptions regarding RMG program The baseline data was explicitly designed to include a Targeting Survey20. This survey enables us to explore whether relying on village head recommendations is an effective way to identify and offer program benefits to the poorest community members. However, the Targeting Survey does not address whether relying on village heads is acceptable to community members. To address this question, we asked RMG and WL their opinions on the fairness and validity of the selection process in the Individual Questionnaire. The questionnaire also inquired into women’s opinions on the RMG program itself, such as whether the RMGs could be effective in maintaining road quality. During pilot program implementation and organization of the baseline survey, PRF and the IE team had discussed whether RMG members might have a strong preference for either monthly or quarterly payments. The survey asked about this, as well. Results on payment preferences can inform future RMG organization, as well as other workfare programs PRF or others may lead in the future. 9.1. Perception of fairness in selection. Table 28: Perceptions regarding village head involvement in selection process. Q1. The village chief advised the selection team on the poverty status of the applicants. Is this fair? Yes, absolutely. Yes, to some degree. Not sure. Not really. Absolutely not. All 749 (68%) 239 (18%) 25 (3%) 85 (7%) 48 (4%) Waitlist 526 (68%) 176 (18%) 19 (3%) 58 (7%) 34 (5%) RMG 223 (70%) 63 (17%) 6 (4%) 27 (7%) 14 (3%) Q2. Do you feel that the village head has a good understanding of how rich or poor most households in the village are? All 749 (65%) 239 (21%) 25 (2%) 85 (7%) 48 (4%) Waitlist 526 (65%) 176 (22%) 19 (2%) 58 (7%) 34 (4%) RMG 223 (67%) 63 (19%) 6 (2%) 27 (8%) 14 (4%) 20 The team is currently analyzing the data from the Targeting Survey.",
+        "text_chars": 2303,
+        "used_ocr": false
+      },
+      {
+        "page_number": 33,
+        "source": "native",
+        "text": "32 Overall, more than 2/3 of the IE sample thought it was “absolutely” fair for the village head to advise the selection team on the poverty status of the applicants. During the selection process, the selection team clearly informed the community members that poverty status was central to selection into the RMGs. By approving the village head’s role in clarifying poverty status, the women are supporting the village head’s power in allocating social benefits. They also accept that the village head’s personal determination and revision of their own wealth status records and wealth status relative to their neighbors was reflective of reality. 9.2. Payment preferences Figure 3 Every 3 months 56% Monthly 44% What is your preference for receiving your salary-- monthly or every 3 months (Total N = 333) It's nice/more exciting 49% I can buy something larger 33% It is too hard to save money 10% Don't know. 8% I can pay small bills right away. 80% I always have money coming in. 12% I get a quick reward for my work. 2% I can buy things that my husband wouldn’t 2% Don't know 4%",
+        "text_chars": 1082,
+        "used_ocr": false
+      },
+      {
+        "page_number": 34,
+        "source": "native",
+        "text": "33 RMG members have a slight preference for being paid every 3 months over being paid monthly. They feel it is more exciting to receive larger amounts of cash and that they will be able to buy something larger with the larger lump sum. Capacity building in financial planning and saving would likely be useful for these individuals. Those who prefer monthly payments mainly like the ability to pay small bills quickly. They also like the sense of stability in the incoming cash flow. Several individuals felt enabled by smaller payments to buy items that their husbands would reject. One question to consider is how the delivery of the RMG payments—and not merely the overall income—impacts household dynamics and women’s agency. 9.3. Perceptions of road and RMG group usefulness Figure 4 RMG and WL women generally consider the quality of the RMG road to be passable—nearly 40% of the sample consider the quality to be “fair” and just over a quarter consider the road quality to be “excellent.” We will compare these assessments against the endline data to determine if the RMGs kept the roads in the same condition as when the RMGs were first formed. 0% 10% 20% 30% 40% 50% Excellent Fair No strong opinion either way Could use some improvement Almost unusable What do you think of the quality of the road? (RMG&WL) 58.26% 25.23% 6.01% 6.31% 4.20% 48.95% 11.69% 0% 10% 20% 30% 40% 50% 60% 70% Yes, absolutely Yes, probably Maybe Doubtful Absolutely not Do you think RMG is capable of maintaining the road? RMG Waitlist",
+        "text_chars": 1520,
+        "used_ocr": false
+      },
+      {
+        "page_number": 35,
+        "source": "native",
+        "text": "34 RMG and WL women were also asked if they thought the RMGs would be able to maintain the road quality. Over half of both assignment groups strongly believe the RMGs will be effectives. Just over 25% think the RMG will likely be able to maintain the road. RMG members were more likely to “absolutely” believe in their ability to maintain the road. For all other levels of confidence, WL members expressed a little more doubt. This result is not unusual, given that WL members were reporting on the efficacy of a job they were denied. 10. Conclusion and next steps The results of the baseline survey indicate success along two streams: one, the IE randomization appears to have been successful and free of bias, which is important to ensure that the study will generate rigorous evidence downstream after endline data are collection. Two, the data from the baseline show that the pro-poor targeting successfully identified poorer villages and households to receive social welfare benefits. Similarities between the RMG and WL members across a range of characteristics shows the two groups to be nearly identical. RMG and WL women resemble each other in age, education, ethnicity, assets, housing conditions, and nutrition intake. This suggests that the randomization was successful. The randomization of the experimental sample into the RMG and Waitlist groups is an important element of the design of the study and knowing this process was free of bias allows us to be more confident that the effects of participation, assessed based on the endline data, will be rigorous evidence of the program’s effects. Second, the comparison of the study sample with other households in the village shows that the program was successfully able to target poorer households. Households in the study sample are poorer than randomly selected households in RMG villages on a number of different indicators of wealth. Finally, both the study sample and other women in their village are significantly poorer than a sample of rural women in the same age group from a nationally representative survey. Women in the RMG villages have lower income and education levels, poorer housing conditions, and consume less food. This shows that the villages PRF works in are poorer than the national average and PRF thus successfully targets areas to receive social welfare benefits. This and other findings, such as the scarcity of wage-earning jobs in program areas and the frequency of economic shocks are suggestive that the RMG program can have a meaningful impact on the beneficiaries. The endline survey will be conducted in October and November 2019. Data collected during this time will capture the effects of approximately one-and-a-half years of increased income from RMG salaries. The IE will look for changes from baseline data in earned income, wealth, food consumption, time use, and indicators of women’s empowerment. An increase in household income among RMG but not WL households, or an increase in hours of school attended for RMG household children but not WL household children, for example, would indicate positive impacts from the RMG program in improving household wealth. An increase among RMG members in participating in household decisions or community leadership activities, for example, would indicate positive program impacts on women’s empowerment.",
+        "text_chars": 3348,
+        "used_ocr": false
+      },
+      {
+        "page_number": 36,
+        "source": "native",
+        "text": "35 Findings from the IE will be shared with PRF to support program development. Results will also be shared with the broader global community to support knowledge development and program design in workfare and female empowerment programs worldwide. 11. Appendix-Ethnicity The RMG program, by design, focuses on rural areas that are remote and where the rural feeder road is an important source of connectivity. In these areas ethnic minorities constitute a much larger proportion of the population than they do nationwide. For example, less than a quarter of our study sample belongs to the Lao ethnic group. Across the nation, in contrast, approximately 50% of the population is ethnically Lao21. As the table below indicates, the largest proportion of the study sample is Khmu. A number of ethnic groups are represented, with the Mon-Khmer family of ethnicities, including Katang, Makong and Tree constituting nearly 2/3rds of the sample. There are also a fairly large number of Hmong, Tai and Phou Tai women. Since the number of ethnic groups is quite large, we use the families of ethnic groups indicated in the table below. Table 29: Distribution of study sample, by ethnicity. Lao-Tai 257 22.4% Lao 147 12.8% Tai 72 6.3% Phou thai 33 2.9% Leu 5 0.4% Mon-Khmer 744 64.9% Khmu 495 43.2% Katang 130 11.3% Makong 52 4.5% Tree 47 4.1% Phong 10 0.9% Than 1 0.1% Bid 4 0.3% La med 1 0.1% Xouay 1 0.1% Pako 3 0.3% Chinese-Tibetan 55 4.8% A kha 43 3.8% Phou noy 12 1.0% Hmong-Emien 90 7.9% Hmong 90 7.9% 21 Source: 2015 Census.",
+        "text_chars": 1524,
+        "used_ocr": false
+      },
+      {
+        "page_number": 37,
+        "source": "native",
+        "text": "36 Demographics The women differ slightly in their demographic characteristics. Lao-Tai women are older and on average, have more years of education than women belonging to the other ethnic groups. Since the average number of years of education is quite low and the average ages of the women is over 30, the difference in years of education is unlikely to be driven by differences in age. Lao-Tai women also live in the smallest households – for example they have three less people on average than Hmong households. Lao-Tai women live in households with fewer children and fewer children under the age of 5, despite being slightly older. Table 30: Comparison of women belonging to different ethnic groups by their demographic characteristics and household composition Demographic characteristics Lao-Tai Mon-Khmer Chinese-Tibetan Hmong-Emien Age 35 33 *** 31 *** 30 *** Married (%) 92% 86% ** 91% 87% Education (Num years) 3.19 2.29 *** 1.53 *** 2.41 ** Household composition (number of members) Total 5.29 5.86 *** 6.93 *** 8.31 *** Children under 5 0.54 0.76 *** 0.96 *** 1.80 *** Children aged 5-15 1.28 1.64 *** 1.42 2.64 *** Working-age adults (15- 65) 3.30 3.28 4.24 *** 3.61 Elderly (> 65) 0.16 0.18 0.31 ** 0.26 * The patterns of time-use by women in these different groups is consistent with this table. Lao-Tai women spend more time doing paid work and much more time engaged on household economic activities such as taking care of livestock or making clothing and handicrafts. Women belonging to the other ethnic groups spend much more time doing unpaid work than Lao-Tai women. Table 31: Comparison of women belonging to different ethnic groups by their time use pattern (in previous 2 days). Number of hours spent in last two days on, Lao-Tai Mon-Khmer Chinese-Tibetan Hmong-Emien Paid work 1.60 1.15 * 0.85 0.67 ** Unpaid work 7.47 10.08 *** 11.22 *** 9.53 *** Household activities 9.34 8.84 9.69 9.52 Household Economic activities 4.76 2.05 *** 2.05 *** 1.71 ***",
+        "text_chars": 1977,
+        "used_ocr": false
+      },
+      {
+        "page_number": 38,
+        "source": "native",
+        "text": "37 Household income and wealth The patterns of household income suggest that Lao-Tai are more well off, but with Mon-Khmer and Hmong households specializing in Agriculture and Livestock respectively. The total household income of Lao-Tai is significantly higher than other ethnic groups. Income among Chinese-Tibetan women in our sample is less than half the income of Lao-Tai women. Lao-Tai households seem to earn more particularly in Handicraft production, consistent with what we see in the time-use patterns. However, the other ethnic groups seem to earn less than Lao-Tai across the board – the two noteworthy exceptions are Agriculture and Livestock, where Mon-Khmer and Hmong households respectively earn more. In the case of Livestock, Hmong households earn more than twice as much as other households. Other ethnic groups also lag behind the Lao-Tai in earning from wage work, though the differences are not statistically significant. Table 32: Comparison of women belonging to different ethnic groups by their household income. Income (in Kip), by source Lao-Tai Mon-Khmer Chinese-Tibetan Hmong-Emien Agriculture 990,992 1,621,399 ** 980,545 274,000 Livestock 1,498,658 1,087,325 1,224,727 3,295,778 *** Aquaculture 84,840 19,173 *** 2,364 ** 2,622 ** Forestry 698,984 490,163 ** 404,818 608,556 Handicrafts 1,456,070 62,344 *** 7,273 *** 48,111 *** Commerce 260,778 90,074 ** 71,818 180,000 Wage work 1,824,440 1,372,745 513,600 1,165,333 Total 8,322,815 6,264,886 *** 4,018,327 *** 6,564,456 The picture of household wealth corroborates the broad income story – that other ethnic groups are less well-off than the Lao-Tai with some interesting patterns of differences. The other ethnic groups have more agricultural land than the Lao-Tai, but not residential land. This is consistent with the picture of household specialization in Agriculture and Livestock rearing among Mon-Khmer and Hmong-Emien. The other ethnic groups also lag the Lao-Tai in terms of ownership of other durable assets, including vehicles. Surprisingly, even the Mon-Khmer, who earn the most from Agriculture, have fewer tractors than the Lao-Tai. For other household consumer goods, the Lao-Tai own significantly more than other groups. When it comes to livestock, however, the Hmong own the greatest number of cows, consistent with the picture of specialization suggested by the household income patterns. The Lao-Tai own more chicken and ducks than other ethnic groups, however, including the Hmong-Emien, suggesting specialization within livestock.",
+        "text_chars": 2536,
+        "used_ocr": false
+      },
+      {
+        "page_number": 39,
+        "source": "native",
+        "text": "38 Table 33: Comparison of women of different ethnic groups by indicators of household wealth. Indicators of wealth Land Lao-Tai Mon-Khmer Chinese-Tibetan Hmong-Emien Agricultural plots (num) 2.14 2.37 * 2.93 *** 2.36 Agricultural plots (total area) 15,852 22,282 *** 22,983 * 23,242 ** Residential plots (num) 1.05 1.08 1.13 * 1.04 Residential plots (total area) 453 355 280 164 Vehicles Motorcycle 0.90 0.69 *** 0.80 0.74 * Bicycle 0.11 0.03 *** 0.02 *** 0.04 ** Tractor (2wheel) 0.50 0.16 *** 0.07 *** 0.00 Tractor (4wheel) 0.04 0.01 *** 0.00 ** 0.00 Durable consumer goods Fridge 0.14 0.07 *** 0.20 0.03 *** Sewing Machine 0.11 0.03 *** 0.02 *** 0.17 ** Phone 0.27 0.07 *** 0.02 *** 0.10 *** TV 0.47 0.31 *** 0.31 ** 0.06 *** Satellite TV 0.45 0.29 *** 0.27 *** 0.03 *** Jewelry 0.60 0.23 *** 0.24 0.06 *** Mosquito Net 3.48 2.89 *** 1.93 *** 2.19 *** Livestock Cow 1.56 0.82 *** 0.65 ** 3.30 *** Buffalo 0.57 0.51 0.91 0.71 Goat 0.55 0.53 0.04 * 0.67 Pig 2.12 1.86 1.78 1.92 Chicken 16.51 7.50 *** 5.25 *** 11.39 *** Ducks 5.17 1.27 *** 1.15 *** 1.00 *** Geese 0.05 0.00 ** 0.00 0.00 Overall, these tables suggest that other ethnic groups lag behind the Lao-Tai in terms of income and wealth, and that there are patterns of specialization – the Hmong specialize in livestock, and in particular, rearing of cows, while the Mon-Khmer specialize in Agriculture. The Lao-Tai women in particular seem to spend more time than other women on producing handicrafts and earn more income from this activity. The women in other ethnic groups also live in larger households with more children under the age of 5, which may mean that they are more constrained in terms of time than women in Lao-Tai households.",
+        "text_chars": 1702,
+        "used_ocr": false
+      },
+      {
+        "page_number": 40,
+        "source": "native",
+        "text": "39 Likelihood of being in RMG group One last dimension on which we compare the different ethnic groups is on the likelihood of being a part of our study sample (either treatment or control). This is a test of whether randomization worked, and whether there was a bias in the selection process pre-randomization favoring one group over another. If randomization was carried out correctly, we should not expect there to be any differences between the different ethnicities in terms of the likelihood of being in the treatment or control groups. However, the step preceding randomization – where women were informed about the RMG jobs and then declared eligible or not based on their poverty rank on the day of selection – could be biased if the village head, for instance, favored one groups over another. Comparing the likelihood of the different ethnic groups being either in the control group, or in our study sample reveals that there were no statistically significant differences between the groups in either of these two regards. Likelihood of being in, Lao-Tai Mon-Khmer Chinese-Tibetan Hmong-Emien Either RMG or waitlist 61% 61% 57% 64% RMG (conditional on being in RMG or waitlist) 29% 28% 35% 38%",
+        "text_chars": 1204,
+        "used_ocr": false
+      },
+      {
+        "page_number": 41,
+        "source": "native",
+        "text": "40 Baseline report For Impact Evaluation of Laos Road Maintenance Groups East Asia and Pacific Gender Innovation Lab THE WORLD BANK www.wordlbank.org/eapgil",
+        "text_chars": 156,
+        "used_ocr": false
+      }
+    ],
+    "extracted_tables": []
+  }
+}
