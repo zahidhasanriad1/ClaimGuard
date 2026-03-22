@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     raw_docs_dir: Path = Path("data/raw")
     pages_dir: Path = Path("data/pages")
     parsed_docs_dir: Path = Path("data/parsed")
+    exports_dir: Path = Path("data/exports")
     ocr_enabled: bool = True
 
     model_config = SettingsConfigDict(
@@ -28,3 +29,4 @@ def ensure_directories() -> None:
     settings.raw_docs_dir.mkdir(parents=True, exist_ok=True)
     settings.pages_dir.mkdir(parents=True, exist_ok=True)
     settings.parsed_docs_dir.mkdir(parents=True, exist_ok=True)
+    settings.exports_dir.mkdir(parents=True, exist_ok=True)
