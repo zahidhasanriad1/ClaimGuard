@@ -29,3 +29,11 @@ Upload PDF or report → PyMuPDF parse → PaddleOCR fallback for scanned pages 
 ├── frontend/             # User interface (React, Next.js, or Streamlit)
 ├── tests/                # Unit, integration, and E2E tests
 └── notebooks/            # Research, EDA, and prototyping
+
+# Let's start:
+1. python -m venv .venv
+2. .venv\Scripts\activate
+3. python -m pip install --upgrade pip
+4. make requirments.txt
+5. install requirments.txt
+6. pip install -U langgraph
