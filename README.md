@@ -206,3 +206,147 @@ ClaimGuard/
     parsed/
     exports/
   frontend-angular/
+
+
+API Endpoints
+Health
+
+GET /health
+
+Basic health check endpoint.
+
+Document Ingestion
+
+POST /ingest/upload
+
+Uploads a PDF and starts parsing.
+
+Documents
+
+GET /documents
+
+Returns the list of processed documents.
+
+Claim Extraction
+
+GET /claims/{document_id}
+
+Extracts claims from a processed document.
+
+Query parameters:
+
+mode=rule|gemini
+max_claims=...
+use_cache=true|false
+refresh=true|false
+Verification
+
+GET /verify/{document_id}
+
+Verifies extracted claims against document evidence.
+
+Query parameters:
+
+mode=rule|gemini
+max_claims=...
+include_results=true|false
+use_tables=true|false
+use_cache=true|false
+refresh=true|false
+Tables
+
+GET /tables/{document_id}
+
+Returns extracted table rows from the PDF.
+
+Exports
+
+POST /exports/{document_id}/summary
+
+Exports a summary JSON.
+
+POST /exports/{document_id}/verification-json
+
+Exports detailed verification results in JSON.
+
+POST /exports/{document_id}/verification-csv
+
+Exports detailed verification results in CSV.
+
+Installation
+Backend Setup
+
+Create and activate a virtual environment, then install dependencies.
+
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+
+Run the backend:
+
+uvicorn app.main:app --reload
+Frontend Setup
+
+Move to the Angular app folder and install dependencies.
+
+cd frontend-angular
+npm install
+ng serve
+
+Then open:
+
+http://localhost:4200
+Environment Variables
+
+Create a .env file in the project root and configure the following values.
+
+APP_NAME=ClaimGuard
+DEBUG=true
+HOST=127.0.0.1
+PORT=8000
+GEMINI_API_KEY=your_api_key
+RAW_DOCS_DIR=data/raw
+PAGES_DIR=data/pages
+PARSED_DOCS_DIR=data/parsed
+EXPORTS_DIR=data/exports
+OCR_ENABLED=true
+Example Workflow
+Upload a PDF through the frontend or API.
+Let the system parse the document and prepare page level text.
+Extract numerical claims using rule mode or Gemini mode.
+Run verification to compare claims against text and table evidence.
+Inspect supported, contradicted, and insufficient claims.
+Export summary and detailed results in JSON or CSV.
+Current Scope
+
+The current system works best for:
+
+text based numerical claims
+nearby sentence level evidence
+basic table row evidence
+research reports and structured PDF documents
+Limitations
+Chart based verification is not yet implemented
+Image based tables may not always be detected
+Contradiction reasoning is still heuristic
+Table extraction depends on PDF structure quality
+OCR quality depends on page quality
+Future Work
+chart based evidence extraction
+image based table extraction
+reviewer workflow for manual validation
+stronger contradiction reasoning
+larger evaluation benchmark
+full LangGraph pipeline from ingestion to export
+richer frontend evidence viewer
+Why This Project Matters
+
+ClaimGuard is more than a PDF reader or a chatbot. It combines document parsing, OCR, claim extraction, evidence search, verification, caching, export, and frontend review into a usable AI system.
+
+This makes it a strong project for roles in:
+
+AI engineering
+NLP engineering
+document intelligence
+applied machine learning
+research engineering
