@@ -1,0 +1,49 @@
+<div class="results-list">
+  <article
+    class="result-card"
+    *ngFor="let item of results; trackBy: trackByClaim"
+  >
+    <div class="result-head">
+      <span
+        class="badge"
+        [class.supported]="item.verdict === 'supported'"
+        [class.contradicted]="item.verdict === 'contradicted'"
+        [class.insufficient]="item.verdict === 'insufficient'"
+      >
+        {{ item.verdict }}
+      </span>
+
+      <span>Page {{ item.claim_page_number }}</span>
+      <span>{{ item.claim_type }}</span>
+      <span>Confidence {{ item.confidence }}</span>
+    </div>
+
+    <div class="claim-text">{{ item.claim_text }}</div>
+
+    <div class="meta-line">
+      <strong>Raw value:</strong> {{ item.raw_value }}
+    </div>
+
+    <ng-container *ngIf="item.matched_evidence as evidence">
+      <div class="meta-line">
+        <strong>Evidence source:</strong> {{ evidence.source_type }}
+        <span class="spacer"></span>
+        <strong>Evidence page:</strong> {{ evidence.page_number }}
+      </div>
+
+      <div class="evidence-box" *ngIf="evidence.sentence_text">
+        <strong>Sentence:</strong>
+        <div>{{ evidence.sentence_text }}</div>
+      </div>
+
+      <div class="evidence-box" *ngIf="evidence.row_text">
+        <strong>Row:</strong>
+        <div>{{ evidence.row_text }}</div>
+      </div>
+    </ng-container>
+
+    <ul class="notes" *ngIf="(item.notes?.length ?? 0) > 0">
+      <li *ngFor="let note of item.notes">{{ note }}</li>
+    </ul>
+  </article>
+</div>

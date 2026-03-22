@@ -1,0 +1,29 @@
+<div class="login-page">
+  <div class="login-card">
+    <h1>ClaimGuard</h1>
+    <p>Sign in to continue</p>
+
+    <form (ngSubmit)="onSubmit()" class="form-stack">
+      <label>
+        <span>Email</span>
+        <input type="email" [(ngModel)]="email" name="email" required />
+      </label>
+
+      <label>
+        <span>Password</span>
+        <input type="password" [(ngModel)]="password" name="password" required />
+      </label>
+
+      <button type="submit" [disabled]="loading">
+        {{ loading ? 'Signing in...' : 'Sign in' }}
+      </button>
+    </form>
+
+    <div class="hint">
+      Demo email: {{ email }}<br />
+      Demo password: {{ password }}
+    </div>
+
+    <div class="error" *ngIf="errorMessage">{{ errorMessage }}</div>
+  </div>
+</div>

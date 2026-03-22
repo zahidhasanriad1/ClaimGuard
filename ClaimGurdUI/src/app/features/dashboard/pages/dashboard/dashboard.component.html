@@ -1,0 +1,43 @@
+<div class="page-shell">
+  <header class="topbar">
+    <div>
+      <h1>ClaimGuard</h1>
+      <p>Numerical claim verification dashboard</p>
+    </div>
+  </header>
+
+  <section class="grid two-col">
+    <app-upload-panel
+      [loading]="loading()"
+      (fileSelected)="onFileSelected($event)"
+      (uploadRequested)="onUploadRequested()"
+    ></app-upload-panel>
+
+    <app-control-panel
+      [documents]="documents()"
+      [selectedDocumentId]="selectedDocumentId()"
+      [claimMode]="claimMode()"
+      [maxClaims]="maxClaims()"
+      [loading]="loading()"
+      (selectedDocumentIdChange)="selectedDocumentId.set($event)"
+      (claimModeChange)="claimMode.set($event)"
+      (maxClaimsChange)="maxClaims.set($event)"
+      (verifyRequested)="onRunVerify()"
+      (exportSummaryRequested)="onExportSummary()"
+      (exportJsonRequested)="onExportJson()"
+      (exportCsvRequested)="onExportCsv()"
+      (logoutRequested)="onLogout()"
+    ></app-control-panel>
+  </section>
+
+  <section *ngIf="message()" class="message-box">
+    {{ message() }}
+  </section>
+
+  <app-summary-cards [data]="verifyData()"></app-summary-cards>
+
+  <section class="card" *ngIf="verifyData()">
+    <h2>Detailed results</h2>
+    <app-results-list [results]="verifyData()?.results ?? []"></app-results-list>
+  </section>
+</div>

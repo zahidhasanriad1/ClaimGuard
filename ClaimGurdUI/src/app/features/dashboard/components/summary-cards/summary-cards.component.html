@@ -1,0 +1,21 @@
+<section class="grid summary-grid" *ngIf="data">
+  <article class="card stat-card">
+    <h3>Total claims</h3>
+    <div class="big-number">{{ data.total_claims }}</div>
+  </article>
+
+  <article class="card stat-card">
+    <h3>Supported</h3>
+    <div class="big-number">{{ data.supported }}</div>
+  </article>
+
+  <article class="card stat-card">
+    <h3>Contradicted</h3>
+    <div class="big-number">{{ data.contradicted }}</div>
+  </article>
+
+  <article class="card stat-card">
+    <h3>Insufficient</h3>
+    <div class="big-number">{{ data.insufficient }}</div>
+  </article>
+</section>

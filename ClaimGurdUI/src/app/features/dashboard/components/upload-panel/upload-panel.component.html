@@ -1,0 +1,7 @@
+<article class="card">
+  <h2>Upload PDF</h2>
+  <div class="stack">
+    <input type="file" accept=".pdf" (change)="onFileChange($event)" />
+    <button type="button" (click)="uploadRequested.emit()" [disabled]="loading">Upload</button>
+  </div>
+</article>

@@ -1,0 +1,38 @@
+<article class="card">
+  <div class="header-row">
+    <h2>Controls</h2>
+    <button type="button" class="secondary" (click)="logoutRequested.emit()">Logout</button>
+  </div>
+
+  <div class="stack">
+    <label class="field">
+      <span>Document</span>
+      <select [ngModel]="selectedDocumentId" (ngModelChange)="selectedDocumentIdChange.emit($event)">
+        <option value="">Select document</option>
+        <option *ngFor="let doc of documents" [value]="doc.document_id">
+          {{ doc.original_filename }} | {{ doc.document_id.slice(0, 8) }}
+        </option>
+      </select>
+    </label>
+
+    <label class="field">
+      <span>Mode</span>
+      <select [ngModel]="claimMode" (ngModelChange)="claimModeChange.emit($event)">
+        <option value="rule">rule</option>
+        <option value="gemini">gemini</option>
+      </select>
+    </label>
+
+    <label class="field">
+      <span>Max claims</span>
+      <input type="number" min="1" max="200" [ngModel]="maxClaims" (ngModelChange)="maxClaimsChange.emit($event)" />
+    </label>
+
+    <div class="button-row">
+      <button type="button" (click)="verifyRequested.emit()" [disabled]="loading || !selectedDocumentId">Run verify</button>
+      <button type="button" (click)="exportSummaryRequested.emit()" [disabled]="loading || !selectedDocumentId">Export summary</button>
+      <button type="button" (click)="exportJsonRequested.emit()" [disabled]="loading || !selectedDocumentId">Export JSON</button>
+      <button type="button" (click)="exportCsvRequested.emit()" [disabled]="loading || !selectedDocumentId">Export CSV</button>
+    </div>
+  </div>
+</article>
