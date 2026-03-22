@@ -239,7 +239,7 @@ ClaimGuard/
 ├── docs/
 │   └── images/
 └── README.md
-
+```
 ## 🔌 API Endpoints
 
 ### Health
