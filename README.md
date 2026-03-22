@@ -8,11 +8,11 @@ The system extracts meaningful claims, retrieves related evidence from text and 
 
 ### Login Page
 
-![ClaimGuard Login Page](docs/images/login-page.png)
+![ClaimGuard Login Page](docs/images/login_page.PNG)
 
 ### Dashboard
 
-![ClaimGuard Dashboard](docs/images/dashboard-page.png)
+![ClaimGuard Dashboard](docs/images/dashboard-page.PNG)
 
 ## Overview
 
